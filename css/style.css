@@ -123,8 +123,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .get  a
 {
 	padding:01em 1.5em;
-	border: #1C8DD5 solid 2px;
-	background:#1C8DD5;
+	border: #a29fcc solid 2px;
+	background:#a29fcc;
 	color:#FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
@@ -133,9 +133,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .get  a:hover
 {
 	background:#FFFFFF;
-	color:#1C8DD5;
+	color:#a29fcc;
 	text-decoration:none;
-	border: #1C8DD5 solid 2px;
+	border: #a29fcc solid 2px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -495,7 +495,7 @@ font-size: 28px;
 /*--- our-team ---*/
 .our-team
 {
-	background:#1C8DD5;
+	background:#495388;
 	padding:4% 0;
 }
 .our-team-left-grid h2
@@ -869,7 +869,7 @@ font-size: 28px;
 /*--- footer ---*/
 .footer
 {
-	background:#308AC2;
+	background:#161827;
 	padding:2% 0;
 }
 .footer-left
