@@ -123,8 +123,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .get  a
 {
 	padding:01em 1.5em;
-	border: #a29fcc solid 2px;
-	background:#a29fcc;
+	border: #020202 solid 2px;
+	background:#020202;
 	color:#FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
@@ -133,9 +133,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 .get  a:hover
 {
 	background:#FFFFFF;
-	color:#a29fcc;
+	color:#020202;
 	text-decoration:none;
-	border: #a29fcc solid 2px;
+	border: #020202 solid 2px;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -183,7 +183,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	font-size:24px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	color:#1C8DD5;
+	color:#030303;
 }
 .service-grid h2 a:hover
 {
@@ -229,7 +229,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 font-size: 37px;
 font-family: 'Open Sans', sans-serif;
 font-weight: 700;
-color: #1C8DD5;
+color: #030303;
 }
 .portfolio-text p {
 font-size: 14px;
@@ -332,7 +332,7 @@ ul#filters {
 	display: block;
 	padding: 8px 16px;
 	text-decoration: none;
-	background: #1C8DD5;
+	background: #030303;
 	color: #FFFFFF;
 	cursor: pointer;
 	font-size: 18px;
@@ -345,7 +345,7 @@ ul#filters {
 	display: block;
 	padding: 8px 16px;
 	text-decoration: none;
-	color: #1C8DD5;
+	color: #030303;
 	cursor: pointer;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -354,7 +354,7 @@ ul#filters {
 	border-radius: 7px;
 }
 	#filters li span:hover {
-		border: solid 2px #1C8DD5;
+		border: solid 2px #030303;
 	border-radius: 7px;
 	transition: 0.5s;
 	-webkit-transition: 0.5s;
@@ -495,7 +495,7 @@ font-size: 28px;
 /*--- our-team ---*/
 .our-team
 {
-	background:#495388;
+	background:#030303;
 	padding:4% 0;
 }
 .our-team-left-grid h2
@@ -519,14 +519,14 @@ font-size: 28px;
 	background:#FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-size:16px;
-	color:#1C8DD5;
+	color:#030303;
 	border-radius:7px;
 	padding:.5em 1em;
 }
 .our-team-left-grid a:hover
 {
 	text-decoration:none;
-	color:#1C8DD5;
+	color:#030303;
 	background:#125E8F;
 	transition:0.5s;
 	-webkit-transition:0.5s;
@@ -555,7 +555,7 @@ font-size: 28px;
 }
 .grid-right-left h4 a
 {
-	color:#1C8DD5;
+	color:#030303;
 	font-family: 'Open Sans', sans-serif;
 	font-size:18px;
 	font-weight:700;
@@ -667,7 +667,7 @@ font-size: 28px;
 }
 .latest-posts-text h2
 {
-	color:#1C8DD5;
+	color:#030303;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 	font-size: 38px;
@@ -688,7 +688,7 @@ font-size: 28px;
 }
 .latest-posts-grid-right h2 a
 {
-	color:#1C8DD5;
+	color:#030303;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 	font-size: 28px;
@@ -806,7 +806,7 @@ font-size: 28px;
 }
 .text-fields-left form input[type="text"]:hover
 {
-	color:#1C8DD5;
+	color:#030303;
 	transition:0.5s;
 	-webkit-transition:0.5s;
 	-moz-transition:0.5s;
@@ -833,7 +833,7 @@ font-size: 28px;
 }
 .text-fields-right textarea:hover
 {	
-	color:#1C8DD5;
+	color:#030303;
 	transition:0.5s;
 	-webkit-transition:0.5s;
 	-moz-transition:0.5s;
@@ -847,8 +847,8 @@ font-size: 28px;
 .button-sub form input[type="submit"]
 {
 	padding: 01em 1.5em;
-	border: #1C8DD5 solid 2px;
-	background: #1C8DD5;
+	border: #030303 solid 2px;
+	background: #030303;
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
@@ -857,9 +857,9 @@ font-size: 28px;
 .button-sub form input[type="submit"]:hover
 {
 	background: #FFFFFF;
-	color: #1C8DD5;
+	color: #030303;
 	text-decoration: none;
-	border: #1C8DD5 solid 2px;
+	border: #030303 solid 2px;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
@@ -869,7 +869,7 @@ font-size: 28px;
 /*--- footer ---*/
 .footer
 {
-	background:#161827;
+	background:#212121;
 	padding:2% 0;
 }
 .footer-left
@@ -1170,7 +1170,7 @@ span.menu:before
 	}
 	.divise-info  h1
 	{
-		color:#1C8DD5;
+		color:#030303;
 	}
 	.divise-info p 
 	{
