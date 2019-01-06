@@ -54,17 +54,17 @@ button {
 @font-face {
   font-family: 'SimplonMono-Regular';
   font-style: normal;
-  src: url("/media/fonts/SimplonMonoRegular/SimplonMono-Regular-WebS.woff2") format("woff2"), url("/media/fonts/SimplonMonoRegular/SimplonMono-Regular-WebS.woff") format("woff"); }
+  src: url("../media/fonts/SimplonMonoRegular/SimplonMono-Regular-WebS.woff2") format("woff2"), url("../media/fonts/SimplonMonoRegular/SimplonMono-Regular-WebS.woff") format("woff"); }
 
 @font-face {
   font-family: 'SimplonMono-Medium';
   font-style: normal;
-  src: url("/media/fonts/SimplonMonoMedium/SimplonMono-Medium-WebS.woff2") format("woff2"), url("/media/fonts/SimplonMonoMedium/SimplonMono-Medium-WebS.woff") format("woff"); }
+  src: url("../media/fonts/SimplonMonoMedium/SimplonMono-Medium-WebS.woff2") format("woff2"), url("../media/fonts/SimplonMonoMedium/SimplonMono-Medium-WebS.woff") format("woff"); }
 
 @font-face {
   font-family: 'SpaceMono-Numbers';
   font-style: normal;
-  src: url("/media/fonts/SpaceMonoRegular/SpaceMono-Regular.woff2") format("woff2"), url("/media/fonts/SpaceMonoRegular/SpaceMono-Regular.woff") format("woff");
+  src: url("../media/fonts/SpaceMonoRegular/SpaceMono-Regular.woff2") format("woff2"), url("../media/fonts/SpaceMonoRegular/SpaceMono-Regular.woff") format("woff");
   unicode-range: U+30-39; }
 
 /* colors */
@@ -1521,20 +1521,20 @@ a:visited {
     height: 24px;
     width: 24px; }
     .social-mobile-nav a.linkedin {
-      background: transparent url("/media/images/footer/linkedin-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/linkedin-logo-dark.svg") center center no-repeat; }
     .social-mobile-nav a.instagram {
-      background: transparent url("/media/images/footer/instagram-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/instagram-logo-dark.svg") center center no-repeat; }
     .social-mobile-nav a.medium {
-      background: transparent url("/media/images/footer/medium-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/medium-logo-dark.svg") center center no-repeat; }
     .social-mobile-nav a.youtube {
-      background: transparent url("/media/images/footer/youtube-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/youtube-logo-dark.svg") center center no-repeat; }
     .social-mobile-nav a.twitter {
-      background: transparent url("/media/images/footer/twitter-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/twitter-logo-dark.svg") center center no-repeat; }
     .social-mobile-nav a.facebook {
-      background: transparent url("/media/images/footer/facebook-logo-dark.svg") center center no-repeat; }
+      background: transparent url("../media/images/footer/facebook-logo-dark.svg") center center no-repeat; }
 
 .mobile-moonshot-button {
-  background: #000 url("/media/images/icons/moon-bg.png") center 56px no-repeat;
+  background: #000 url("../media/images/icons/moon-bg.png") center 56px no-repeat;
   background-size: 192px auto;
   bottom: 0;
   color: #fff !important;
@@ -1754,7 +1754,7 @@ a:visited {
         .page-footer .email-signup .email-input-field {
           font-size: 16px; } }
     .page-footer .email-signup .email-submit {
-      background: transparent url("/media/images/icons/email-submit.svg") center no-repeat;
+      background: transparent url("../media/images/icons/email-submit.svg") center no-repeat;
       border: 1px solid #fff;
       border-left: none;
       cursor: pointer;
@@ -1888,11 +1888,11 @@ a:visited {
   .cta-box:hover {
     background-color: #ffab00; }
   .cta-box.-arrow {
-    background-image: url("/media/images/icons/right-arrow.svg"); }
+    background-image: url("../media/images/icons/right-arrow.svg"); }
   .cta-box.-left-arrow {
-    background-image: url("/media/images/icons/left-arrow.svg"); }
+    background-image: url("../media/images/icons/left-arrow.svg"); }
   .cta-box.-external {
-    background-image: url("/media/images/icons/diagonal-arrow.svg");
+    background-image: url("../media/images/icons/diagonal-arrow.svg");
     background-size: 20px 20px; }
 
 .cta-lockup {
@@ -1944,13 +1944,13 @@ a:visited {
       height: 60px;
       width: 60px; } }
   .cta-button.-play {
-    background: #fbbc05 url("/media/images/icons/play.svg") center center no-repeat;
+    background: #fbbc05 url("../media/images/icons/play.svg") center center no-repeat;
     background-size: 7px 10px; }
     @media (min-width: 900px) {
       .cta-button.-play {
         background-size: 10px 14px; } }
   .cta-button.-lightbox {
-    background: #fbbc05 url("/media/images/icons/lightbox-line.svg") center center no-repeat;
+    background: #fbbc05 url("../media/images/icons/lightbox-line.svg") center center no-repeat;
     font-family: "SpaceMono-Numbers", "SimplonMono-Regular", Courier, monospace;
     font-size: 10px; }
     @media (min-width: 900px) {
@@ -1973,7 +1973,7 @@ a:visited {
           bottom: 12px;
           right: 12px; } }
   .cta-button.-close {
-    background: #fbbc05 url("/media/images/icons/close.svg") center center no-repeat;
+    background: #fbbc05 url("../media/images/icons/close.svg") center center no-repeat;
     background-size: 14px 14px; }
     @media (min-width: 900px) {
       .cta-button.-close {
@@ -2044,7 +2044,7 @@ a:visited {
       background-position: center center;
       margin-bottom: -20px; }
       .typeout .link-wrapper.-static .cursor.-add-arrow {
-        background: #fbbc05 url("/media/images/icons/right-arrow.svg") center center no-repeat;
+        background: #fbbc05 url("../media/images/icons/right-arrow.svg") center center no-repeat;
         background-size: 20px 14px; }
         @media (min-width: 600px) {
           .typeout .link-wrapper.-static .cursor.-add-arrow {
@@ -2266,10 +2266,10 @@ a:visited {
       .lightbox .lightbox-nav button:hover {
         cursor: pointer; }
     .lightbox .lightbox-nav .lightbox-prev {
-      background: transparent url("/media/images/icons/lightbox-arrow-left.svg") center no-repeat;
+      background: transparent url("../media/images/icons/lightbox-arrow-left.svg") center no-repeat;
       float: left; }
     .lightbox .lightbox-nav .lightbox-next {
-      background: transparent url("/media/images/icons/lightbox-arrow-right.svg") center no-repeat;
+      background: transparent url("../media/images/icons/lightbox-arrow-right.svg") center no-repeat;
       float: right; }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .lightbox .lightbox-nav {
@@ -2501,10 +2501,10 @@ a:visited {
           .timeline-panel .slides .mobile-slide-card .mobile-slide-nav button:disabled {
             opacity: 0.33; }
         .timeline-panel .slides .mobile-slide-card .mobile-slide-nav .slide-prev {
-          background: transparent url("/media/images/icons/mobile-timeline-arrow-left.svg") center center no-repeat;
+          background: transparent url("../media/images/icons/mobile-timeline-arrow-left.svg") center center no-repeat;
           float: left; }
         .timeline-panel .slides .mobile-slide-card .mobile-slide-nav .slide-next {
-          background: transparent url("/media/images/icons/mobile-timeline-arrow-right.svg") center center no-repeat;
+          background: transparent url("../media/images/icons/mobile-timeline-arrow-right.svg") center center no-repeat;
           float: right; }
     .timeline-panel .slides .slide {
       background-color: transparent;
@@ -2735,7 +2735,7 @@ a:visited {
           .timeline-panel .slides .slide .slide-content .slide-link:visited {
             color: #171717; }
           .timeline-panel .slides .slide .slide-content .slide-link.-external {
-            background: transparent url("/media/images/icons/space-mono-arrow-orange.svg") left 1px no-repeat;
+            background: transparent url("../media/images/icons/space-mono-arrow-orange.svg") left 1px no-repeat;
             background-size: 10px auto;
             padding: 1px 0 0 16px; }
         .timeline-panel .slides .slide .slide-content .count-link {
@@ -2848,7 +2848,7 @@ a:visited {
       .timeline-panel .slider .input-container .range-selector::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        background: #fbbc05 url("/media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
+        background: #fbbc05 url("../media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
         border-radius: 0;
         cursor: pointer;
         height: 28px;
@@ -2857,11 +2857,11 @@ a:visited {
         width: 30px; }
         @media (min-width: 900px) {
           .timeline-panel .slider .input-container .range-selector::-webkit-slider-thumb {
-            background-image: url("/media/images/icons/timeline-arrows.svg");
+            background-image: url("../media/images/icons/timeline-arrows.svg");
             height: 42px;
             width: 46px; } }
       .timeline-panel .slider .input-container .range-selector::-moz-range-thumb {
-        background: #fbbc05 url("/media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
+        background: #fbbc05 url("../media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
         border: none;
         border-radius: 0;
         cursor: pointer;
@@ -2871,11 +2871,11 @@ a:visited {
         width: 30px; }
         @media (min-width: 900px) {
           .timeline-panel .slider .input-container .range-selector::-moz-range-thumb {
-            background-image: url("/media/images/icons/timeline-arrows.svg");
+            background-image: url("../media/images/icons/timeline-arrows.svg");
             height: 42px;
             width: 46px; } }
       .timeline-panel .slider .input-container .range-selector::-ms-thumb {
-        background: #fbbc05 url("/media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
+        background: #fbbc05 url("../media/images/icons/timeline-arrows-small.svg") 50% 50% no-repeat;
         border: none;
         border-radius: 0;
         cursor: pointer;
@@ -2885,7 +2885,7 @@ a:visited {
         width: 30px; }
         @media (min-width: 900px) {
           .timeline-panel .slider .input-container .range-selector::-ms-thumb {
-            background-image: url("/media/images/icons/timeline-arrows.svg");
+            background-image: url("../media/images/icons/timeline-arrows.svg");
             height: 42px;
             width: 46px; } }
       .timeline-panel .slider .input-container .range-selector::-moz-range-track {
@@ -3150,89 +3150,89 @@ a:visited {
     .homepage .tech-image-panel .image-bg.-opacity-hidden {
       opacity: 0; }
     .homepage .tech-image-panel .image-bg.loon {
-      background-image: url("/media/images/home/panels/loon-1-mobile.jpg");
+      background-image: url("../media/images/home/panels/loon-1-mobile.jpg");
       z-index: 3; }
       @media (min-width: 600px) {
         .homepage .tech-image-panel .image-bg.loon {
-          background-image: url("/media/images/home/panels/loon-1.jpg"); } }
+          background-image: url("../media/images/home/panels/loon-1.jpg"); } }
       @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
         .homepage .tech-image-panel .image-bg.loon {
-          background-image: url("/media/images/home/panels/loon-1.jpg"); } }
+          background-image: url("../media/images/home/panels/loon-1.jpg"); } }
     .homepage .tech-image-panel .image-bg.wing {
-      background-image: url("/media/images/home/panels/wing-1-mobile.jpg");
+      background-image: url("../media/images/home/panels/wing-1-mobile.jpg");
       z-index: 4; }
       @media (min-width: 600px) {
         .homepage .tech-image-panel .image-bg.wing {
-          background-image: url("/media/images/home/panels/wing-1.jpg"); } }
+          background-image: url("../media/images/home/panels/wing-1.jpg"); } }
       @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
         .homepage .tech-image-panel .image-bg.wing {
-          background-image: url("/media/images/home/panels/wing-1.jpg"); } }
+          background-image: url("../media/images/home/panels/wing-1.jpg"); } }
     .homepage .tech-image-panel .image-bg.makani {
-      background-image: url("/media/images/home/panels/makani-1-mobile.jpg");
+      background-image: url("../media/images/home/panels/makani-1-mobile.jpg");
       z-index: 5; }
       @media (min-width: 600px) {
         .homepage .tech-image-panel .image-bg.makani {
-          background-image: url("/media/images/home/panels/makani-1.jpg"); } }
+          background-image: url("../media/images/home/panels/makani-1.jpg"); } }
       @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
         .homepage .tech-image-panel .image-bg.makani {
-          background-image: url("/media/images/home/panels/makani-1.jpg"); } }
+          background-image: url("../media/images/home/panels/makani-1.jpg"); } }
     .homepage .tech-image-panel .image-bg.fsoc {
-      background-image: url("/media/images/home/panels/fsoc-1-mobile.jpg");
+      background-image: url("../media/images/home/panels/fsoc-1-mobile.jpg");
       z-index: 6; }
       @media (min-width: 600px) {
         .homepage .tech-image-panel .image-bg.fsoc {
-          background-image: url("/media/images/home/panels/fsoc-1.jpg"); } }
+          background-image: url("../media/images/home/panels/fsoc-1.jpg"); } }
       @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
         .homepage .tech-image-panel .image-bg.fsoc {
-          background-image: url("/media/images/home/panels/fsoc-1.jpg"); } }
+          background-image: url("../media/images/home/panels/fsoc-1.jpg"); } }
   .homepage .tech-image-panel.imageset-2 .image-bg.loon {
-    background-image: url("/media/images/home/panels/loon-2-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/loon-2-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-2 .image-bg.loon {
-        background-image: url("/media/images/home/panels/loon-2.jpg"); } }
+        background-image: url("../media/images/home/panels/loon-2.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-2 .image-bg.loon {
-        background-image: url("/media/images/home/panels/loon-2.jpg"); } }
+        background-image: url("../media/images/home/panels/loon-2.jpg"); } }
   .homepage .tech-image-panel.imageset-2 .image-bg.wing {
-    background-image: url("/media/images/home/panels/wing-2-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/wing-2-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-2 .image-bg.wing {
-        background-image: url("/media/images/home/panels/wing-2.jpg"); } }
+        background-image: url("../media/images/home/panels/wing-2.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-2 .image-bg.wing {
-        background-image: url("/media/images/home/panels/wing-2.jpg"); } }
+        background-image: url("../media/images/home/panels/wing-2.jpg"); } }
   .homepage .tech-image-panel.imageset-2 .image-bg.makani {
-    background-image: url("/media/images/home/panels/makani-2-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/makani-2-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-2 .image-bg.makani {
-        background-image: url("/media/images/home/panels/makani-2.jpg"); } }
+        background-image: url("../media/images/home/panels/makani-2.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-2 .image-bg.makani {
-        background-image: url("/media/images/home/panels/makani-2.jpg"); } }
+        background-image: url("../media/images/home/panels/makani-2.jpg"); } }
   .homepage .tech-image-panel.imageset-2 .image-bg.fsoc {
-    background-image: url("/media/images/home/panels/fsoc-2-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/fsoc-2-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-2 .image-bg.fsoc {
-        background-image: url("/media/images/home/panels/fsoc-2.jpg"); } }
+        background-image: url("../media/images/home/panels/fsoc-2.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-2 .image-bg.fsoc {
-        background-image: url("/media/images/home/panels/fsoc-2.jpg"); } }
+        background-image: url("../media/images/home/panels/fsoc-2.jpg"); } }
   .homepage .tech-image-panel.imageset-3 .image-bg.wing {
-    background-image: url("/media/images/home/panels/wing-3-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/wing-3-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-3 .image-bg.wing {
-        background-image: url("/media/images/home/panels/wing-3.jpg"); } }
+        background-image: url("../media/images/home/panels/wing-3.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-3 .image-bg.wing {
-        background-image: url("/media/images/home/panels/wing-3.jpg"); } }
+        background-image: url("../media/images/home/panels/wing-3.jpg"); } }
   .homepage .tech-image-panel.imageset-3 .image-bg.makani {
-    background-image: url("/media/images/home/panels/makani-3-mobile.jpg"); }
+    background-image: url("../media/images/home/panels/makani-3-mobile.jpg"); }
     @media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-3 .image-bg.makani {
-        background-image: url("/media/images/home/panels/makani-3.jpg"); } }
+        background-image: url("../media/images/home/panels/makani-3.jpg"); } }
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-3 .image-bg.makani {
-        background-image: url("/media/images/home/panels/makani-3.jpg"); } }
+        background-image: url("../media/images/home/panels/makani-3.jpg"); } }
 
 .homepage .tech-panels {
   background: transparent;
@@ -3555,7 +3555,7 @@ a:visited {
         bottom: 28px; } }
     @media (min-width: 900px) {
         .projects .grid-container .grid-item .grid-inner .arrow {
-          background: #fbbc05 url("/media/images/icons/right-arrow.svg") no-repeat center;
+          background: #fbbc05 url("../media/images/icons/right-arrow.svg") no-repeat center;
           background-size: 20px 14px;
           bottom: 0;
           display: block;
@@ -3868,7 +3868,7 @@ a:visited {
         display: none; }
         @media (min-width: 900px) {
           .news .article-container .news-module .pullquote .arrow {
-            background: #fbbc05 url("/media/images/icons/diagonal-arrow.svg") no-repeat center;
+            background: #fbbc05 url("../media/images/icons/diagonal-arrow.svg") no-repeat center;
             background-size: 12px 12px;
             border-radius: 2px;
             display: inline-block;
@@ -4662,7 +4662,7 @@ a:visited {
       .container .media-container .img-caption a:visited {
         color: #171717; }
     .container .media-container .img-caption .arrow {
-      background: transparent url("/media/images/icons/space-mono-arrow.svg") center no-repeat;
+      background: transparent url("../media/images/icons/space-mono-arrow.svg") center no-repeat;
       background-size: 7px 7px;
       display: inline-block;
       height: 7px;
@@ -4787,7 +4787,7 @@ a:visited {
 
 @media (min-width: 600px) {
   .loon-page .full-bleed-image {
-    background: url("/media/images/projects/loon/loon-full-large.jpg") 50% 50% no-repeat;
+    background: url("../media/images/projects/loon/loon-full-large.jpg") 50% 50% no-repeat;
     background-size: cover;
     height: 1128px;
     margin: 0;
@@ -4801,7 +4801,7 @@ a:visited {
     padding-top: 80px; } }
 
 .loon-page .diagram-container .diagram-svg.-balloon {
-  background: transparent url("/media/images/projects/loon/balloon-diagram-mobile.svg") no-repeat 44% 0%;
+  background: transparent url("../media/images/projects/loon/balloon-diagram-mobile.svg") no-repeat 44% 0%;
   background-size: auto 332px;
   display: block;
   height: 332px;
@@ -4816,7 +4816,7 @@ a:visited {
       min-height: 880px; } }
   @media (min-width: 600px) {
     .loon-page .diagram-container .diagram-svg.-balloon {
-      background-image: url("/media/images/projects/loon/balloon-diagram.svg");
+      background-image: url("../media/images/projects/loon/balloon-diagram.svg");
       background-position: top right;
       background-size: 50% 100%;
       margin: 90px 0 90px auto; }
@@ -5126,7 +5126,7 @@ a:visited {
             max-width: 346px; } }
 
 .makani-page .diagram-container .diagram-svg.-rotor {
-  background: url("/media/images/projects/makani/rotor-mobile.svg") no-repeat center top;
+  background: url("../media/images/projects/makani/rotor-mobile.svg") no-repeat center top;
   background-size: 50% auto;
   display: inline-block;
   height: auto;
@@ -5135,7 +5135,7 @@ a:visited {
   width: 100%; }
   @media (min-width: 600px) {
     .makani-page .diagram-container .diagram-svg.-rotor {
-      background-image: url("/media/images/projects/makani/rotor.svg");
+      background-image: url("../media/images/projects/makani/rotor.svg");
       background-position: center 100px;
       background-size: 70% auto;
       height: 500px;
@@ -5190,7 +5190,7 @@ a:visited {
           max-width: 316px; } }
 
 .makani-page .diagram-container .diagram-svg.-motor {
-  background: url("/media/images/projects/makani/motor-mobile.svg") no-repeat center top;
+  background: url("../media/images/projects/makani/motor-mobile.svg") no-repeat center top;
   background-size: 50% auto;
   display: inline-block;
   height: auto;
@@ -5199,7 +5199,7 @@ a:visited {
   width: 100%; }
   @media (min-width: 600px) {
     .makani-page .diagram-container .diagram-svg.-motor {
-      background-image: url("/media/images/projects/makani/motor.png");
+      background-image: url("../media/images/projects/makani/motor.png");
       background-size: 85% auto;
       height: 600px;
       padding-top: 0;
@@ -5512,7 +5512,7 @@ a:visited {
         max-width: 40%; } }
 
 .wing-page .diagram-svg {
-  background: transparent url("/media/images/projects/wing/wing-diagram.svg") no-repeat;
+  background: transparent url("../media/images/projects/wing/wing-diagram.svg") no-repeat;
   background-position: center 40px;
   background-size: 320px auto;
   min-height: 740px;
@@ -5708,7 +5708,7 @@ a:visited {
       min-height: 0; } }
 
 .foghorn-page .diagram-svg {
-  background: transparent url("/media/images/projects/fsoc/fsoc-illustration.svg") no-repeat;
+  background: transparent url("../media/images/projects/fsoc/fsoc-illustration.svg") no-repeat;
   width: 100%; }
   @media (min-width: 600px) {
     .foghorn-page .diagram-svg {
@@ -5959,7 +5959,7 @@ a:visited {
         opacity: 0.25; }
 
 .malta-page .diagram-svg {
-  background: transparent url("/media/images/projects/fsoc/fsoc-illustration.svg") no-repeat;
+  background: transparent url("../media/images/projects/fsoc/fsoc-illustration.svg") no-repeat;
   width: 100%; }
   @media (min-width: 600px) {
     .malta-page .diagram-svg {
@@ -6099,7 +6099,7 @@ a:visited {
   margin-bottom: 30px; }
 
 .waymo-page .diagram-container .diagram-svg.-side-view {
-  background: transparent url("/media/images/projects/waymo/side-view-mobile.svg") no-repeat top center;
+  background: transparent url("../media/images/projects/waymo/side-view-mobile.svg") no-repeat top center;
   background-size: 300px auto;
   display: block;
   margin-top: 40px;
@@ -6118,7 +6118,7 @@ a:visited {
       min-height: 680px; } }
   @media (min-width: 1280px) {
     .waymo-page .diagram-container .diagram-svg.-side-view {
-      background-image: url("/media/images/projects/waymo/side-view.svg");
+      background-image: url("../media/images/projects/waymo/side-view.svg");
       background-position: center;
       background-size: 968px auto;
       max-width: 1400px;
@@ -6153,7 +6153,7 @@ a:visited {
             max-width: 214px; } }
 
 .waymo-page .diagram-container .diagram-svg.-front-view {
-  background: transparent url("/media/images/projects/waymo/front-view-mobile.svg") no-repeat top center;
+  background: transparent url("../media/images/projects/waymo/front-view-mobile.svg") no-repeat top center;
   background-size: 300px auto;
   min-height: 588px;
   padding-top: 320px;
@@ -6181,7 +6181,7 @@ a:visited {
         width: 377px; } }
   @media (min-width: 1280px) {
     .waymo-page .diagram-container .diagram-svg.-front-view {
-      background-image: url("/media/images/projects/waymo/front-view.svg");
+      background-image: url("../media/images/projects/waymo/front-view.svg");
       background-position: center;
       background-size: 658px auto;
       min-height: 700px;
@@ -6250,7 +6250,7 @@ a:visited {
             vertical-align: middle; } }
 
 .waymo-page .diagram-container .diagram-svg.-top-view {
-  background: transparent url("/media/images/projects/waymo/top-view-mobile.svg") no-repeat top center;
+  background: transparent url("../media/images/projects/waymo/top-view-mobile.svg") no-repeat top center;
   background-size: 300px auto;
   min-height: 444px;
   padding-top: 240px;
@@ -6267,7 +6267,7 @@ a:visited {
       min-height: 610px; } }
   @media (min-width: 1280px) {
     .waymo-page .diagram-container .diagram-svg.-top-view {
-      background-image: url("/media/images/projects/waymo/top-view.svg");
+      background-image: url("../media/images/projects/waymo/top-view.svg");
       background-position: center;
       background-size: 955px auto;
       margin-bottom: 120px;
@@ -6632,7 +6632,7 @@ a:visited {
     margin-right: 5px;
     text-transform: uppercase; }
   .career-reading-links a .arrow {
-    background: transparent url("/media/images/icons/space-mono-arrow.svg") center no-repeat;
+    background: transparent url("../media/images/icons/space-mono-arrow.svg") center no-repeat;
     background-size: 7px 7px;
     display: inline-block;
     height: 7px;
@@ -6698,9 +6698,9 @@ a:visited {
     height: 30px;
     width: 42px; }
   .mobile-carousel-nav .-prev {
-    background: transparent url("/media/images/icons/mobile-timeline-arrow-left.svg") center center no-repeat; }
+    background: transparent url("../media/images/icons/mobile-timeline-arrow-left.svg") center center no-repeat; }
   .mobile-carousel-nav .-next {
-    background: transparent url("/media/images/icons/mobile-timeline-arrow-right.svg") center center no-repeat; }
+    background: transparent url("../media/images/icons/mobile-timeline-arrow-right.svg") center center no-repeat; }
   .mobile-carousel-nav .carousel-count {
     color: #171717;
     display: block;
@@ -7729,7 +7729,7 @@ div.careers-details .compliance__item__label {
   width: 100%; }
 
 .moonshot .msb-content-grid {
-  background-image: url("/media/images/moonshot/grid-pattern.png");
+  background-image: url("../media/images/moonshot/grid-pattern.png");
   background-position: 50% 50%;
   background-size: 57px 57px;
   border: solid 1px #2c2c2c;
