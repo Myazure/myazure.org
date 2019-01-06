@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>X - FSOC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <meta content="X, the moonshot factory" itemprop="name">
+    <meta content="We’re a Moonshot Factory. Our mission is to invent and launch “moonshot” technologies that we hope could someday make the world a radically better place." itemprop="description">
+    <meta content="./media/images/social.png" itemprop="image">
+    <meta content="./media/images/social.png" itemprop="logo">
+    <meta content="https://myazure.org" property="url">
+    <meta content="X, the moonshot factory" property="og:title">
+    <meta content="X, the moonshot factory" property="og:site_name">
+    <meta content="We’re a Moonshot Factory. Our mission is to invent and launch “moonshot” technologies that we hope could someday make the world a radically better place." property="og:description">
+    <meta content="./media/images/social.png" property="og:image">
+    <meta content="https://myazure.org" property="og:url">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="apple-touch-icon" href="../../media/apple-touch-icon.png">
+    <link rel="icon" href="../../media/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../media/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/all.min.css">
+  </head>
+
+  <body class="project fsoc  hoverable">
+    <a class="skip-to-main js-skip" href="fsoc.html#page-top">Skip to main content</a>
+<header class="site-header js-sticky-nav">
+  <a class="header-logo" href="../../x_default.html">
+    <span class="-visually-hidden">X home</span>
+    <svg class="x-logo x-logo-large" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 38 38" role="presentation" aria-hidden="true">
+      <path class="logo-fill" d="M19.571 29.042L8.958 18.429l-7.343-7.344v-9.47h8.997v10.14l24.632 24.63h-8.33l-7.343-7.343zm-8.486 7.343h-9.47v-9.47l6.773-6.773 9.47 9.47-6.773 6.773zm7.96-26.811l6.728-6.802v9.455h9.47L28.47 19l7.915 7.915v8.328L12.227 11.085V2.756l6.818 6.818zm8.343 1.038h8.997V1.615h-8.997v8.997zM38 37.192V26.246L30.754 19 38 11.754V0H26.243l-7.205 7.284L11.754 0H0v11.754L7.246 19 0 26.246V38h11.754L19 30.754 26.246 38H38v-.807z" fill="#221E1F" fill-rule="evenodd"/>
+    </svg>
+    <svg class="x-logo x-logo-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" role="presentation" aria-hidden="true">
+      <path class="logo-fill" d="M19.43 18.81v-5.36l-3.35-3.35 3.35-3.35v-6h-6l-3.37 3.33L6.69.72h-6v6L4 10.1.65 13.45v6h6L10 16.14l3.35 3.35h6v-.67zm-1.35-13h-3.74V2.07h3.73zm-8 .2L13 3v4.15h4.13l-3 3L18.08 14v3.17l-11-11V3zM6.13 18.14H2V14l3-3 4.13 4.13zM10 14.23l-4.6-4.6L2 6.19V2.07h3.74v4.68l11.38 11.39h-3.17z" fill="#231f20"/>
+    </svg>
+  </a>
+  <nav class="desktop-nav">
+    <ul>
+      <li class="nav-overview "><a href="../../x_default.html">Home</a></li>
+      <li class="nav-projects nav--active"><a href="../projects.html">Projects</a></li>
+      <li class="nav-careers "><a href="../../careers-at-x/careers-at-x.html">Careers</a></li>
+      <li class="nav-news "><a href="../../news-from-x/news-from-x.html">News</a></li>
+    </ul>
+  </nav>
+  <button type="button" class="mobile-menu-open js-mobile-open"
+    data-g-event="click"
+    data-g-label="mobile nav open"
+    data-g-action="clicked">Menu</button>
+</header>    <a href="../../moonshot/moonshot.html" class="slug js-slug"
+      data-g-event="click"
+      data-g-label="Moonshot Factory side link"
+      data-g-action="clicked">The Moonshot Factory</a>
+<div id="page-top" tabindex="-1" class="container js-page-container fsoc-page">
+<div class="intro">
+  <div class="copy">
+    <h1 class="h4 js-page-header" tabindex="-1">FSOC at X</h1>
+    <h2 class="h2">Using beams of light to support the growing global demand for data</h2>
+    <div class="tag">In development</div>
+  </div>
+  <div class="image">
+    <img class="square-image transition-in js-transition-in" alt="Man works on FSOC installation in India." src="../../media/images/projects/fsoc/fsoc-hero-large.jpg">
+  </div>
+</div>
+<div id="first-section" class="stat-container cols-row-s">
+  <div class="copy col-s-10 col-m-4 col-offset-s-1 -no-right-gutter -center">
+    <h2 class="eyebrow js-content-header" tabindex="-1">The challenge</h2>
+      <p class="body ">Global Internet traffic is projected to grow 24% annually. Fiber-optic cable can support this growth in demand, but rolling out an extensive fiber network often means deployment complications. Planning and digging trenches to lay lines can be time-consuming and costly, and tough terrain can pose physical challenges that make expansion nearly impossible. Because of the difficulties laying fiber in some places, there’s a significant divide in mobile internet speeds between the countries with the fastest internet and those with the slowest.</p>
+      <p class="body ">A potential solution to this problem arose during work on Project Loon. The Loon team needed to figure out a way to create a data link between balloons that were flying over 100 km apart. The team investigated the use of FSOC (Free Space Optical Communications) technology to establish high-throughput links between balloons. Like fiber, but without the wires, FSOC uses light to transmit high-speed data between two points.</p>
+      <p class="body -no-btm">After experiencing some early success with FSOC high in the stratosphere, the team began to wonder: would it be possible to apply some of that science to solve connectivity problems down a little closer to Earth?</p>
+  </div>
+  <div class="stat col-s-8 col-m-5 col-offset-s-2 col-offset-m-1 -center">
+    <img class="stat-image transition-in js-transition-in" src="../../media/images/projects/fsoc/fsoc-stat.png" alt="There is a 7x difference in mobile internet speeds between the top 10 countries with the fastest internet, and those with the slowest &mdash; source: Opensignal">
+    <p class="eyebrow stat-desc" aria-hidden="true">There is a 7x difference in mobile internet speeds between the top 10 countries with the fastest internet, and those with the slowest &mdash; source: Opensignal</p>
+  </div>
+</div>  <div class="diagram-container">
+    <div class="hairline"></div>
+    <div class="cols-row-s -no-bottom-margin">
+      <div class="title-container col-s-10 col-offset-s-1">
+        <h2 class="eyebrow">Design</h2>
+        <h3 class="h3">Wireless fiber</h3>
+      </div>
+    </div>
+    <div class="hairline"></div>
+    <div class="diagram-svg -fsoc">
+<svg role="presentation" aria-hidden="true" class="fsoc-svg js-fsoc-svg" viewBox="0 0 600 729" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <path d="M284.0111 1.21489L35.87685 200.41947c-.32026.25731-.58964.80394-.5984 1.21431L26.40597 604.75" fill="#FFF" />
+    <path d="M284.0111 1.21489L35.87685 200.41947c-.32026.25731-.58964.80394-.5984 1.21431L26.40597 604.75" stroke="#171717"
+      stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M564.55622 472.22384c.00846.41054-.30782.65774-.70384.54907L286.1612 396.76338c-.39602-.10867-.72113-.53318-.7221-.94375L284.01404 1.96167c-.0017-.41063.31818-.64848.7109-.52887l271.04289 82.83065c.39197.11954.7206.55415.72833.96462l8.06007 386.99577z"
+      fill="#FFF" />
+    <path d="M564.55622 472.22384c.00564.2737-92.7927-24.8798-278.39502-75.46046-.39602-.10867-.72113-.53318-.7221-.94375L284.01404 1.96167c-.00114-.27375 90.58346 27.16017 271.75379 82.30178.39197.11954 7.7206.55415 7.72833.96462l1.06007 386.99577z"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M299.08066 676.01966c-.32623.24923-.9182.36858-1.31539.2643L27.08061 605.435c-.3972-.10428-.46096-.40007-.14062-.65814l257.9318-207.86562c.3196-.25813.90509-.38035 1.3011-.27168L563.864 472.64983c.3961.10793.45264.40078.12715.6501L299.08066 676.01965z"
+      fill="#FFF" />
+    <path d="M299.08066 676.01966c-.32623.24923-.9182.36858-1.31539.2643L27.08061 605.435c-.3972-.10428-.46096-.40007-.14062-.65814l257.9318-207.86562c.3196-.25813.90509-.38035 1.3011-.27168L563.864 472.64983c.3961.10793.45264.40078.12715.6501L299.08066 676.01965z"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M514.8167 168.41864c3.90952 23.3824-11.3894 40.55986-34.17141 38.3662-22.78128-2.19358-44.41854-22.9276-48.32805-46.31-3.90945-23.38312 11.38939-40.55985 34.17067-38.36626 22.78202 2.19365 44.41935 22.92693 48.3288 46.31006z"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M524.57822 169.35932c4.83384 28.91634-14.08498 50.15764-42.25728 47.44495-28.17305-2.71275-54.93116-28.35299-59.76581-57.26865-4.83459-28.91641 14.08505-50.15839 42.2581-47.44563 28.1723 2.71268 54.9304 28.35292 59.765 57.26933z"
+      stroke="#171717" stroke-width="2.23954" />
+    <path d="M432.7866 141.20294c3.1672-.56175 6.56548-.69603 10.14786-.35109 22.78202 2.19366 44.41935 22.92694 48.3288 46.31007 1.2214 7.30875.70992 13.61769-1.46361 19.3126"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M434.17339 139.43772c4.08108-1.18138 8.62205-1.6011 13.50555-1.13087 22.78203 2.19366 44.41929 22.92767 48.3288 46.31006 1.35108 8.08065.56254 14.96924-2.19095 21.02478"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M445.394 126.75803c4.7753-1.90322 10.2986-2.6876 16.34947-2.10497 22.78128 2.19359 44.41928 22.92768 48.3288 46.31007 2.38155 14.24915-2.37945 26.4951-11.60872 33.15625"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M412.16742 77.54138c-.30743.27206-.557.8311-.5538 1.24187l1.10452 142.69099c.0032.41078.27048.54007.5941.28683l31.2675-24.47065c.32362-.25324.68063-.78317.79441-1.17819l24.38286-84.7248c.11304-.39508.2177-1.05361.231-1.4643l2.80642-85.27906c.0133-.4107-.22704-.52388-.53522-.2519l-60.09179 53.1492z"
+      fill="#FFF" />
+    <path d="M412.16742 77.54138c-.30743.27206-.557.8311-.5538 1.24187l1.10452 142.69099c.0032.41078.27048.54007.5941.28683l31.2675-24.47065c.32362-.25324.68063-.78317.79441-1.17819l24.38286-84.7248c.11304-.39508.2177-1.05361.231-1.4643l2.80642-85.27906c.0133-.4107-.22704-.52388-.53522-.2519l-60.09179 53.1492z"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M543.90072 261.86688l30.6711-22.56051 24.02534-93.73859s-.93318-52.61827-2.18728-70.74877c-1.2541-18.1305-21.63073-24.59498-21.63073-24.59498S491.44832 26.0372 481.38341 23.2213c-13.63242-3.81375-14.66406 12.09532-14.66406 12.09532l3.24388 75.35295 70.19 18.76502 3.7475 132.43229z"
+      fill="#FFF" />
+    <path d="M411.60817 78.036l1.10983 143.43815c.00393.41085.27048.54007.5941.28683l31.2675-24.47065c.32362-.25324.68137-.7831.79441-1.17818l24.38286-84.7248c.11304-.39509.19222-1.05383.17395-1.4638l-3.17906-73.8609c-.01752-.40991-.02107-1.08187-.00777-1.49256 0 0 .48827-14.9626 14.63942-11.34879 10.1261 2.5854 92.6795 26.7927 92.6795 26.7927.39382.11595 1.03647.3114 1.42801.4354 0 0 19.66486 6.23912 20.91896 24.36961 1.2541 18.1305 2.17447 70.00164 2.17447 70.00164.00691.41113-.07033 1.07306-.17236 1.4707l-23.65501 92.29144c-.10204.39765-.45558.92266-.78651 1.1662l-29.4684 21.67527c-.33094.24353-.6065.10669-.61118-.30423l-1.86104-134.05537c-.00542-.411.03725-1.08.09513-1.4864 0 0 3.37212-23.6883-23.95494-31.94688-27.32773-8.2594-49.88201-14.89005-49.88201-14.89005"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M41.62827 578.67276L2.6155 568.28492c-.3963-.1057-.72014-.52784-.71962-.93826l.65493-371.40664c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M41.62827 578.67276L2.6155 568.28492c-.3963-.1057-.72014-.52784-.71962-.93826l.65493-371.40664c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M58.66475 565.30507l-39.7549-10.46155c-.39718-.10428-.72109-.52568-.72057-.9361l.65492-371.40664c.0006-.41117.32169-.6459.7133-.52264l40.29331 12.7286"
+      fill="#FFF" />
+    <path d="M58.66475 565.30507l-39.7549-10.46155c-.39718-.10428-.72109-.52568-.72057-.9361l.65492-371.40664c.0006-.41117.32169-.6459.7133-.52264l40.29331 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M74.95815 551.86582l-39.7549-10.46155c-.39718-.10428-.7211-.52568-.72057-.9361l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52263l40.29331 12.72859"
+      fill="#FFF" />
+    <path d="M74.95815 551.86582l-39.7549-10.46155c-.39718-.10428-.7211-.52568-.72057-.9361l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52263l40.29331 12.72859"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M91.25154 538.42658l-39.75489-10.46155c-.39719-.10428-.7211-.52568-.72057-.9361l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M91.25154 538.42658l-39.75489-10.46155c-.39719-.10428-.7211-.52568-.72057-.9361l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M107.54494 524.98734l-39.75489-10.46155c-.39719-.10428-.7211-.52568-.72058-.9361l.65493-371.40664c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M107.54494 524.98734l-39.75489-10.46155c-.39719-.10428-.7211-.52568-.72058-.9361l.65493-371.40664c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M124.58142 511.61964l-40.49783-10.53458c-.39726-.10354-.72124-.5242-.72072-.93462l.65492-371.40664c.0006-.41116.32169-.64589.7133-.52263l40.29331 12.72859"
+      fill="#FFF" />
+    <path d="M124.58142 511.61964l-40.49783-10.53458c-.39726-.10354-.72124-.5242-.72072-.93462l.65492-371.40664c.0006-.41116.32169-.64589.7133-.52263l40.29331 12.72859"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M140.06014 498.85236l-39.68681-11.19189c-.395-.11157-.71758-.53885-.71706-.94927l.65492-371.40664c.0006-.41116.32168-.6459.7133-.52264l40.29331 12.7286"
+      fill="#FFF" />
+    <path d="M140.06014 498.85236l-39.68681-11.19189c-.395-.11157-.71758-.53885-.71706-.94927l.65492-371.40664c.0006-.41116.32168-.6459.7133-.52264l40.29331 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M156.35354 485.41312l-39.68681-11.1919c-.395-.11156-.71758-.53884-.71706-.94926l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M156.35354 485.41312l-39.68681-11.1919c-.395-.11156-.71758-.53884-.71706-.94926l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M173.39009 472.04543l-40.42968-11.26567c-.39513-.11008-.7178-.53662-.71727-.94704l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52264l40.29331 12.7286"
+      fill="#FFF" />
+    <path d="M173.39009 472.04543l-40.42968-11.26567c-.39513-.11008-.7178-.53662-.71727-.94704l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52264l40.29331 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M189.68349 458.6062l-40.42968-11.26568c-.39513-.11009-.7178-.53662-.71727-.94704l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M189.68349 458.6062l-40.42968-11.26568c-.39513-.11009-.7178-.53662-.71727-.94704l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M206.71996 445.2385l-41.1718-11.33938c-.39594-.10942-.71875-.53446-.71823-.94489l.65493-371.40663c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M206.71996 445.2385l-41.1718-11.33938c-.39594-.10942-.71875-.53446-.71823-.94489l.65493-371.40663c.00059-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M223.01336 431.79926l-41.1718-11.33939c-.39594-.10941-.71875-.53446-.71823-.94488l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52263l40.29331 12.72859"
+      fill="#FFF" />
+    <path d="M223.01336 431.79926l-41.1718-11.33939c-.39594-.10941-.71875-.53446-.71823-.94488l.65492-371.40664c.0006-.41116.32168-.64589.7133-.52263l40.29331 12.72859"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M239.30676 418.36001l-41.1718-11.33938c-.39595-.10941-.71875-.53446-.71823-.94488l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.29331 12.7286"
+      fill="#FFF" />
+    <path d="M239.30676 418.36001l-41.1718-11.33938c-.39595-.10941-.71875-.53446-.71823-.94488l.65492-371.40664c.0006-.41117.32168-.6459.7133-.52264l40.29331 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M255.60016 404.92077l-41.1718-11.33938c-.39595-.10942-.71876-.53446-.71824-.94489l.65493-371.40663c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      fill="#FFF" />
+    <path d="M255.60016 404.92077l-41.1718-11.33938c-.39595-.10942-.71876-.53446-.71824-.94489l.65493-371.40663c.0006-.41117.32168-.6459.7133-.52264l40.2933 12.7286"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M271.89355 391.48153l-41.1718-11.33939c-.39594-.10941-.71875-.53446-.71823-.94488l.65493-371.40664c.00059-.41116.32168-.64589.7133-.52263l40.2933 12.72859"
+      fill="#FFF" />
+    <path d="M271.89355 391.48153l-41.1718-11.33939c-.39594-.10941-.71875-.53446-.71823-.94488l.65493-371.40664c.00059-.41116.32168-.64589.7133-.52263l40.2933 12.72859"
+      stroke="#171717" stroke-width="2.23954" stroke-linecap="round" />
+    <path d="M369.95816 27.688s-1.18702 131.5962-1.1887 131.76938c-.06336 7.04471 2.04958 14.59689 6.58419 20.20157 7.0317 8.69216 11.84953 16.28567 10.26033 27.94554-1.1003 8.07798-4.41205 15.78769-6.98698 23.46254-3.31377 9.88043-6.1423 19.9164-6.98762 30.3467l.29503 158.55166"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M384.52737 32.15513s-1.03882 130.1817-1.03957 130.22065c-.04782 5.77727 1.07223 13.58579 4.59083 18.2927 5.27988 7.0632 12.11753 13.18304 12.67762 22.5465.62926 10.53776-4.14035 21.01942-7.41833 30.793-3.31083 9.87321-6.1356 19.9013-6.9802 30.32415l.15785 159.97623M381.50737 201.76862c-.28666 2.97703-1.76667 5.27034-3.30559 5.12216-1.53891-.14818-2.55415-2.68176-2.2675-5.65878.28666-2.97703 1.76667-5.27033 3.30559-5.12215 1.53891.14818 2.55415 2.68175 2.2675 5.65877z"
+      stroke="#171717" stroke-width=".74651" />
+    <path d="M251.2226 475.44121l25.26237 6.9972s.65402 62.6596.78544 71.67712c.13216 9.0176-6.21259 7.40563-7.6977 28.0241l-28.87026-6.53191 10.37222-99.93087"
+      fill="#FFF" />
+    <path d="M297.84805 515.58672c-3.20055 2.57488-9.0694 3.83251-13.04188 2.79565l-25.0591-6.5379c-3.97249-1.03686-4.60528-3.9906-1.4048-6.56474l33.075-26.6056c3.1998-2.57496 9.06865-3.8326 13.0412-2.79647l25.05911 6.5379c3.97248 1.03686 4.6052 3.99134 1.40547 6.56555l-33.075 26.60561zM272.28432 578.86265c.14187-3.45172-7.14547-6.3656-16.5453-6.74992-9.39984-.38432-17.04251 4.41101-17.18371 7.86354l.16795 32.40144 34.13994 1.02108-.57888-34.53614z"
+      fill="#FFF" />
+    <path d="M272.91529 613.2457c-.14113 3.45178-7.90492 5.93771-17.34137 5.55212-9.43572-.38553-16.97032-3.49657-16.82912-6.9491.14113-3.45178 7.90485-5.93697 17.34063-5.55219 9.43639.38634 16.97099 3.49738 16.82986 6.94917M118.26107 578.9514l25.26237 6.9972s.65402 62.65959.78544 71.67711c.13216 9.0176-6.21259 7.40563-7.6977 28.02411l-28.87026-6.53192 10.37222-99.93087"
+      fill="#FFF" />
+    <path d="M139.32272 682.37282c.14187-3.45171-7.14547-6.3656-16.5453-6.74992-9.39984-.38432-17.04251 4.41102-17.18371 7.86355l.16795 32.40144 34.13994 1.02107-.57888-34.53614z"
+      fill="#FFF" />
+    <path d="M139.95376 716.75588c-.14113 3.45178-7.90492 5.93771-17.34138 5.55212-9.43571-.38552-16.97031-3.49656-16.82911-6.9491.14113-3.45178 7.90485-5.93697 17.34063-5.55219 9.43639.38634 16.97099 3.49738 16.82986 6.94917M452.93375 494.22106c-.10148 10.11996-19.74183 18.12892-43.867 17.8898-24.12584-.23992-43.60077-8.63842-43.4993-18.75838.10156-10.1207 19.74198-18.1304 43.867-17.8898 24.12585.23992 43.60078 8.63842 43.4993 18.75838"
+      fill="#FFF" />
+    <path d="M452.93375 494.22106c-.10148 10.11996-19.74183 18.12892-43.867 17.8898-24.12584-.23992-43.60077-8.63842-43.4993-18.75838.10156-10.1207 19.74198-18.1304 43.867-17.8898 24.12585.23992 43.60078 8.63842 43.4993 18.75838z"
+      stroke="#171717" stroke-width="2.23954" />
+    <path d="M438.31203 498.63247c-.06459 6.35648-13.29073 11.37735-29.54345 11.21565-16.25272-.1617-29.37539-5.4452-29.31155-11.80174.0637-6.35506 13.29073-11.37734 29.54271-11.21572 16.25272.1617 29.37613 5.44527 29.31229 11.80181z"
+      stroke="#171717" stroke-width=".74651" />
+    <g>
+      <path d="M387.40874 522.69424l-.1769-21.52892c.04809-4.77546 9.98546-8.5484 22.19592-8.42624 12.21052.12142 22.06984 4.09114 22.02256 8.86593l.1769 21.52892"
+        fill="#FFF" />
+      <path d="M387.40874 522.69424l-.1769-21.52892c.04809-4.77546 9.98546-8.5484 22.19592-8.42624 12.21052.12142 22.06984 4.09114 22.02256 8.86593l.1769 21.52892"
+        stroke="#171717" stroke-width="2.23954" />
+    </g>
+    <g>
+      <path d="M431.62692 523.13397c-.0481 4.77546-9.98547 8.5484-22.19593 8.42624-12.21052-.12142-22.06983-4.09114-22.02256-8.86593"
+        fill="#FFF" />
+      <path d="M431.62692 523.13397c-.0481 4.77546-9.98547 8.5484-22.19593 8.42624-12.21052-.12142-22.06983-4.09114-22.02256-8.86593"
+        stroke="#171717" stroke-width="2.23954" />
+    </g>
+    <path d="M387.93983 522.58637c.04654-4.6503 9.72473-8.32513 21.61754-8.20654 11.89207.11852 21.49436 3.9847 21.44782 8.635"
+      stroke="#171717" stroke-width=".74651" />
+    <g>
+      <path d="M322.69002 578.69422l-.0951-11.60668c.02515-2.57447 5.38295-4.6077 11.96516-4.54271 6.58369.06513 11.89813 2.20523 11.8729 4.78044l.09518 11.60594"
+        fill="#FFF" />
+      <path d="M322.69002 578.69422l-.0951-11.60668c.02515-2.57447 5.38295-4.6077 11.96516-4.54271 6.58369.06513 11.89813 2.20523 11.8729 4.78044l.09518 11.60594"
+        stroke="#171717" stroke-width="2.23954" />
+    </g>
+    <g>
+      <path d="M346.5281 578.93106c-.0259 2.5744-5.38303 4.60844-11.9659 4.54264-6.58296-.06506-11.89814-2.20523-11.87224-4.77963"
+        fill="#FFF" />
+      <path d="M346.5281 578.93106c-.0259 2.5744-5.38303 4.60844-11.9659 4.54264-6.58296-.06506-11.89814-2.20523-11.87224-4.77963"
+        stroke="#171717" stroke-width="2.23954" />
+    </g>
+    <path d="M322.97611 578.636c.02547-2.50766 5.24315-4.4876 11.65457-4.4248 6.41054.06422 11.58787 2.14835 11.56248 4.65526"
+      stroke="#171717" stroke-width=".74651" />
+    <path class="long-range js-fill-trigger" data-fill-target="long-range" d="M489.675 206.04553c2.174-5.695 2.685-12.004 1.464-19.312-2.858-17.087-15.18-32.759-30.499-40.816l-12.64 44.278s17.85 19.325 41.675 15.85z"
+      stroke="#181718" stroke-width=".747" fill="#FF7910" />
+    <g class="plug-and-play js-fill-trigger" data-fill-target="plug-and-play">
+      <path stroke="#181718" stroke-width="2.24" fill="#FF7910" d="M209.516 485.1892l80.061-63.787 64.068 16.653-.571 8.495-79.459 63.742-64.454-17.559z"
+      />
+      <path d="M353.7621 445.821l-80.669 64.499c-.321.257-.907.379-1.305.272l-63.245-17.716" fill="#FEFEFE" />
+      <path d="M353.7621 445.821l-80.669 64.499c-.321.257-.907.379-1.305.272l-63.245-17.716" stroke="#181718" stroke-width="2.24"
+      />
+      <path d="M212.1507 493.7214c-.879-.237-1.119-1.369-.412-1.942l77.644-62.97c.321-.257.908-.379 1.304-.271l60.321 17.415c.869.251 1.094 1.376.389 1.942l-77.341 62.042c-.277.222-.644.3-.988.207l-60.917-16.423z"
+        fill="#FEFEFE" />
+      <path d="M212.1507 493.7214c-.879-.237-1.119-1.369-.412-1.942l77.644-62.97c.321-.257.908-.379 1.304-.271l60.321 17.415c.869.251 1.094 1.376.389 1.942l-77.341 62.042c-.277.222-.644.3-.988.207l-60.917-16.423z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M289.5765 421.4021v7.407" fill="#FEFEFE" />
+      <path d="M289.5765 421.4021v7.407" stroke="#181718" stroke-width="2.24" />
+      <path d="M240.1937 574.8982c-1.347-11.976-10.782-23.439-10.758-29.789.026-6.751-.434-53.074-.434-53.074-.005-.411.257-.953.583-1.204l19.338-15.009 26.951 5.659.718 66.447s1.086 6.974-1.467 11.782c-2.554 4.808-4.243 8.407-4.837 11.757-.595 3.35-.834 5.484-.834 5.484l-29.26-2.053"
+        fill="#FEFEFE" />
+      <path d="M240.1937 574.8982c-1.347-11.976-10.782-23.439-10.758-29.789.026-6.751-.434-53.074-.434-53.074-.005-.411.257-.953.583-1.204l19.338-15.009 26.951 5.659.718 66.447s1.086 6.974-1.467 11.782c-2.554 4.808-4.243 8.407-4.837 11.757-.595 3.35-.834 5.484-.834 5.484l-29.26-2.053"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M272.2377 611.6364l-.565-33.73c.044-1.108-.673-2.159-1.98-3.089-2.768-1.972-8.18-3.401-14.566-3.661-9.4-.385-17.042 4.411-17.184 7.863l.168 32.401.073.002c.604 3.235 7.829 6.053 16.778 6.418 9.436.386 17.2-2.1 17.341-5.552.009-.218-.014-.436-.065-.652"
+        fill="#FEFEFE" />
+      <path d="M272.2377 611.6364l-.565-33.73c.044-1.108-.673-2.159-1.98-3.089-2.768-1.972-8.18-3.401-14.566-3.661-9.4-.385-17.042 4.411-17.184 7.863l.168 32.401.073.002c.604 3.235 7.829 6.053 16.778 6.418 9.436.386 17.2-2.1 17.341-5.552.009-.218-.014-.436-.065-.652z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M272.3031 612.2888c-.142 3.452-7.905 5.937-17.342 5.552-9.435-.386-16.97-3.496-16.829-6.949.142-3.452 7.905-5.937 17.341-5.552 9.436.387 16.971 3.497 16.83 6.949"
+        fill="#FEFEFE" />
+      <path d="M272.3031 612.2888c-.142 3.452-7.905 5.937-17.342 5.552-9.435-.386-16.97-3.496-16.829-6.949.142-3.452 7.905-5.937 17.341-5.552 9.436.387 16.971 3.497 16.83 6.949z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M250.2904 542.9782l-.407-65.079c-.002-.411-.271-.541-.595-.29" stroke="#181718" stroke-width="2.24" stroke-linecap="round"
+      />
+      <path d="M332.3939 484.4851l-.475-30.203c-.063-4.108-3.367-8.318-7.338-9.358l-21.31-5.573c-3.972-1.039-9.836.222-13.03 2.804l-29.249 23.636c-3.196 2.582-5.766 8.054-5.713 12.162l.38 29.784"
+        fill="#FEFEFE" />
+      <path d="M332.3939 484.4851l-.475-30.203c-.063-4.108-3.367-8.318-7.338-9.358l-21.31-5.573c-3.972-1.039-9.836.222-13.03 2.804l-29.249 23.636c-3.196 2.582-5.766 8.054-5.713 12.162l.38 29.784"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M297.2357 514.6296c-3.2 2.575-9.069 3.833-13.042 2.796l-25.059-6.538c-3.972-1.037-4.605-3.99-1.405-6.565l33.075-26.605c3.2-2.575 9.069-3.833 13.041-2.797l25.06 6.538c3.972 1.037 4.604 3.991 1.405 6.566l-33.075 26.605z"
+        fill="#FEFEFE" />
+      <path d="M297.2357 514.6296c-3.2 2.575-9.069 3.833-13.042 2.796l-25.059-6.538c-3.972-1.037-4.605-3.99-1.405-6.565l33.075-26.605c3.2-2.575 9.069-3.833 13.041-2.797l25.06 6.538c3.972 1.037 4.604 3.991 1.405 6.566l-33.075 26.605z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M276.8109 489.4138l36.885 12.021" stroke="#181718" stroke-width="2.24" stroke-linecap="round" />
+    </g>
+    <g class="easy-to-integrate js-fill-trigger" data-fill-target="easy-to-integrate">
+      <path stroke="#181718" stroke-width="2.24" fill="#FF7910" d="M77.516 595.1892l80.061-63.787 64.068 16.653-.571 8.495-79.459 63.742-64.454-17.559z"
+      />
+      <path d="M221.7621 555.821l-80.669 64.499c-.321.257-.907.379-1.305.272l-63.245-17.716" fill="#FEFEFE" />
+      <path d="M221.7621 555.821l-80.669 64.499c-.321.257-.907.379-1.305.272l-63.245-17.716" stroke="#181718" stroke-width="2.24"
+      />
+      <path d="M80.1507 603.7214c-.879-.237-1.119-1.369-.412-1.942l77.644-62.97c.321-.257.908-.379 1.304-.271l60.321 17.415c.869.251 1.094 1.376.389 1.942l-77.341 62.042c-.277.222-.644.3-.988.207l-60.917-16.423z"
+        fill="#FEFEFE" />
+      <path d="M80.1507 603.7214c-.879-.237-1.119-1.369-.412-1.942l77.644-62.97c.321-.257.908-.379 1.304-.271l60.321 17.415c.869.251 1.094 1.376.389 1.942l-77.341 62.042c-.277.222-.644.3-.988.207l-60.917-16.423z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M157.5765 531.4021v7.407" fill="#FEFEFE" />
+      <path d="M157.5765 531.4021v7.407" stroke="#181718" stroke-width="2.24" />
+      <path d="M108.1937 684.8982c-1.347-11.976-10.782-23.439-10.758-29.789.026-6.751-.434-53.074-.434-53.074-.005-.411.257-.953.583-1.204l19.338-15.009 26.951 5.659.718 66.447s1.086 6.974-1.467 11.782c-2.554 4.808-4.243 8.407-4.837 11.757-.595 3.35-.834 5.484-.834 5.484l-29.26-2.053"
+        fill="#FEFEFE" />
+      <path d="M108.1937 684.8982c-1.347-11.976-10.782-23.439-10.758-29.789.026-6.751-.434-53.074-.434-53.074-.005-.411.257-.953.583-1.204l19.338-15.009 26.951 5.659.718 66.447s1.086 6.974-1.467 11.782c-2.554 4.808-4.243 8.407-4.837 11.757-.595 3.35-.834 5.484-.834 5.484l-29.26-2.053"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M140.2377 721.6364l-.565-33.73c.044-1.108-.673-2.159-1.98-3.089-2.768-1.972-8.18-3.401-14.566-3.661-9.4-.385-17.042 4.411-17.184 7.863l.168 32.401.073.002c.604 3.235 7.829 6.053 16.778 6.418 9.436.386 17.2-2.1 17.341-5.552.009-.218-.014-.436-.065-.652"
+        fill="#FEFEFE" />
+      <path d="M140.2377 721.6364l-.565-33.73c.044-1.108-.673-2.159-1.98-3.089-2.768-1.972-8.18-3.401-14.566-3.661-9.4-.385-17.042 4.411-17.184 7.863l.168 32.401.073.002c.604 3.235 7.829 6.053 16.778 6.418 9.436.386 17.2-2.1 17.341-5.552.009-.218-.014-.436-.065-.652z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M140.3031 722.2888c-.142 3.452-7.905 5.937-17.342 5.552-9.435-.386-16.97-3.496-16.829-6.949.142-3.452 7.905-5.937 17.341-5.552 9.436.387 16.971 3.497 16.83 6.949"
+        fill="#FEFEFE" />
+      <path d="M140.3031 722.2888c-.142 3.452-7.905 5.937-17.342 5.552-9.435-.386-16.97-3.496-16.829-6.949.142-3.452 7.905-5.937 17.341-5.552 9.436.387 16.971 3.497 16.83 6.949z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M118.2904 652.9782l-.407-65.079c-.002-.411-.271-.541-.595-.29" stroke="#181718" stroke-width="2.24" stroke-linecap="round"
+      />
+      <path d="M200.3939 594.4851l-.475-30.203c-.063-4.108-3.367-8.318-7.338-9.358l-21.31-5.573c-3.972-1.039-9.836.222-13.03 2.804l-29.249 23.636c-3.196 2.582-5.766 8.054-5.713 12.162l.38 29.784"
+        fill="#FEFEFE" />
+      <path d="M200.3939 594.4851l-.475-30.203c-.063-4.108-3.367-8.318-7.338-9.358l-21.31-5.573c-3.972-1.039-9.836.222-13.03 2.804l-29.249 23.636c-3.196 2.582-5.766 8.054-5.713 12.162l.38 29.784"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M165.2357 624.6296c-3.2 2.575-9.069 3.833-13.042 2.796l-25.059-6.538c-3.972-1.037-4.605-3.99-1.405-6.565l33.075-26.605c3.2-2.575 9.069-3.833 13.041-2.797l25.06 6.538c3.972 1.037 4.604 3.991 1.405 6.566l-33.075 26.605z"
+        fill="#FEFEFE" />
+      <path d="M165.2357 624.6296c-3.2 2.575-9.069 3.833-13.042 2.796l-25.059-6.538c-3.972-1.037-4.605-3.99-1.405-6.565l33.075-26.605c3.2-2.575 9.069-3.833 13.041-2.797l25.06 6.538c3.972 1.037 4.604 3.991 1.405 6.566l-33.075 26.605z"
+        stroke="#181718" stroke-width="2.24" fill="#FF7910" />
+      <path d="M144.8109 599.4138l36.885 12.021" stroke="#181718" stroke-width="2.24" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>      <ol class="info-list">
+        <li class="info-box js-info-box -one transition-in js-transition-in" tabindex="0">
+          <div class="info-container">
+            <h2 class="eyebrow">Flexibility</h2>
+            <p class="body">With a clear line of sight, data can be transmitted between FSOC units kilometers apart to easily traverse common obstacles like rivers, roads, and railways.</p>
+          </div>
+        </li>
+        <li class="info-box js-info-box -three transition-in js-transition-in" data-fill-target="long-range" tabindex="0">
+          <svg role="presentation" aria-hidden="true" width="167" height="32" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M1.5 2.5h165M166.5 2.5v28.071" stroke="#171717" stroke-linecap="square" />
+              <circle fill="#171717" transform="matrix(-1 0 0 1 5 0)" cx="2.5" cy="2.5" r="2.5" />
+            </g>
+          </svg>
+          <div class="info-container js-fill-trigger" data-fill-target="long-range">
+            <h2 class="eyebrow">Long-Range</h2>
+            <p class="body">Long range line-of-sight data transmissions at 10+ km.</p>
+          </div>
+        </li>
+        <li class="info-box js-info-box -two transition-in js-transition-in" data-fill-target="easy-to-integrate" tabindex="0">
+          <div class="info-container js-fill-trigger" data-fill-target="easy-to-integrate">
+            <h2 class="eyebrow">Easy to integrate</h2>
+            <p class="body">Based on open standards to integrate seamlessly with existing networks.</p>
+          </div>
+          <svg role="presentation" aria-hidden="true" width="197" height="65" xmlns="http://www.w3.org/2000/svg">
+            <g transform="matrix(-1 0 0 1 197 0)" fill="none" fill-rule="evenodd">
+              <path d="M2.5 64.5h194M2.5 5.5v58.07" stroke="#171717" stroke-linecap="square" />
+              <circle fill="#171717" transform="matrix(-1 0 0 1 5 0)" cx="2.5" cy="2.5" r="2.5" />
+            </g>
+          </svg>
+        </li>
+        <li class="info-box js-info-box -five transition-in js-transition-in" data-fill-target="plug-and-play" tabindex="0">
+          <svg role="presentation" aria-hidden="true" width="197" height="65" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" fill-rule="evenodd">
+              <path d="M2.5 64.5h194M2.5 5.5v58.07" stroke="#171717" stroke-linecap="square" />
+              <circle fill="#171717" transform="matrix(-1 0 0 1 5 0)" cx="2.5" cy="2.5" r="2.5" />
+            </g>
+          </svg>
+          <div class="info-container js-fill-trigger" data-fill-target="plug-and-play">
+            <h2 class="eyebrow">Plug and Play</h2>
+            <p class="body">Quicker deployment over long distances in comparison to fiber-optic cable.</p>
+          </div>
+        </li>
+        <li class="info-box js-info-box -four transition-in js-transition-in" tabindex="0">
+          <div class="info-container">
+            <h2 class="eyebrow">High-Speed</h2>
+            <p class="body">High-throughput supports 10-100s Gbps data rates.</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+    <div class="hairline"></div>
+  </div>
+  <div class="media-container">
+    <div class="row cols-row-s">
+      <div class="copy col-12 col-s-10 col-offset-s-1 -no-bottom-margin">
+        <h2 class="eyebrow">Development</h2>
+        <h3 class="h3">FSOC in India</h3>
+      </div>
+    </div>
+    <div class="row cols-row-s">
+      <div class="copy col-s-10 col-m-5 col-l-4 col-offset-s-1 -no-right-gutter">
+          <p class="body ">The FSOC team recently partnered with AP Fiber to help bring high-speed, broadband connectivity to the Indian state of Andhra Pradesh. FSOC links will form part of the high-bandwidth backbone of the state’s network, giving them a cost-effective, quickly deployed way to bring high-speed connectivity to remote areas. The links will help plug critical gaps to major access points, like cell towers and WiFi hotspots, to help thousands of people access the educational, business, and communication benefits of the web.</p>
+          <p class="body -no-btm">Currently, the FSOC team is in discussions with multiple other state representatives to help extend high-speed connectivity throughout India.</p>
+      </div>
+      <div class="col-s-10 col-l-5 col-m-4 col-offset-s-1 -no-left-gutter">
+        <img class="transition-in js-transition-in" src="../../media/images/projects/fsoc/india-fsoc-large.jpg" alt="Smiling men in India look at cellphone.">
+      </div>
+    </div>
+  </div>
+  <div class="media-container -full-width-image">
+    <div class="row cols-row-s">
+      <div class="video-container col-s-10 col-offset-s-1">
+        <button type="button" class="lightbox-trigger js-lightbox-trigger transition-in js-transition-in" data-g-event="click" data-g-label="fsoc video lightbox open button" data-g-action="clicked"  data-lightbox-trigger="1">
+          <div class="cta-button -play"></div>
+          <img src="../../media/images/projects/fsoc/fsoc-video-thumb.jpg" alt="3 men in India work on FSOC installation.">
+          <span class="-visually-hidden">Click to open video of FSOC in a lightbox overlay</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="media-container -last">
+    <div class="row cols-row-s">
+      <div class="copy -bottom col-s-10 col-m-4 col-l-4 col-offset-s-1 -no-right-gutter">
+        <h2 class="eyebrow">Today</h2>
+        <h3 class="h3">Getting the Internet to underserved locations</h3>
+        <p class="body -no-btm">The X FSOC team is now focused on delivering 10+ Gbps connectivity over distances of 10+ km between each terminal, with rapid “out-of-the-box” deployability at scale. Although initially focused in India, the team welcomes conversations with Telcos, ISPs and global governments about the potential for FSOC technology to significantly accelerate the deployment of the extensive, high-throughput networks necessary to support the future of the web.</p>
+      </div>
+      <div class="col-s-10 col-m-5 col-l-5 col-offset-s-1 -no-left-gutter -bottom">
+        <img class="transition-in js-transition-in" src="../../media/images/projects/fsoc/fsoc-scale-large.jpg" alt="Several technicians in a lab behind diagnostic equipment.">
+      </div>
+    </div>
+  </div>
+<div class="projects-container js-projects-list">
+  <div class="cols-row-s -no-bottom-margin">
+    <div class="col-s-10 col-offset-s-1">
+      <h2 class="eyebrow">explore more technology</h2>
+      <ul class="list-container js-list-container">
+        <li class="project js-project-hover">
+          <a href="../waymo/waymo.html">Self-driving cars</a>
+          <img src="../../media/images/projects/landing/waymo-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../glass/glass.html">Smart glasses</a>
+          <img src="../../media/images/projects/landing/glass-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../wing/wing.html">Delivery drones</a>
+          <img src="../../media/images/projects/landing/wing-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../makani/makani.html">Energy kites</a>
+          <img src="../../media/images/projects/landing/makani-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../malta/malta.html">Salt-based Energy Storage</a>
+          <img src="../../media/images/projects/landing/malta-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../verily/verily.html">Life Sciences</a>
+          <img src="../../media/images/projects/landing/verily-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../chronicle/chronicle.html">Cybersecurity</a>
+          <img src="../../media/images/projects/landing/chronicle-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../foghorn/foghorn.html">Seawater fuel</a>
+          <img src="../../media/images/projects/landing/foghorn-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../loon/loon.html">Internet balloons</a>
+          <img src="../../media/images/projects/landing/loon-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../brain/brain.html">AI and Machine Learning</a>
+          <img src="../../media/images/projects/landing/brain-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="../dandelion/dandelion.html">Geothermal energy</a>
+          <img src="../../media/images/projects/landing/dandelion-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+        <li class="project js-project-hover">
+          <a href="fsoc.html">Free Space Optics</a>
+          <img src="../../media/images/projects/landing/fsoc-small.jpg" class="image-hover js-project-image" alt=" " aria-hidden="true">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div></div>
+
+<div class="lightbox video-lightbox js-lightbox" data-lightbox="1" aria-hidden="true">
+  <div class="video-lightbox-container">
+    <iframe class="video-iframe js-video-iframe" src="https://www.youtube.com/embed/HoybAZNpLjk?enablejsapi=1&version=3&playerapiid=ytplayer&modestbranding=1&rel=0&showinfo=0"
+      frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+  </div>
+  <button type="button" class="cta-button -close js-lightbox-close">
+    <span class="-visually-hidden"></span>
+  </button>
+</div>
+    <a href="fsoc.html#first-section" aria-hidden="true" class="page-arrow js-arrow" title="Scroll to first content section" data-direction="down" data-target="#first-section">
+      <span class="-visually-hidden js-arrow-text">Scroll to first content section and focus first content heading</span>
+      <svg width="19px" height="33px" viewBox="0 0 19 33" aria-hidden="true" role="presentation">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g class="arrow-fill" transform="translate(-1391.000000, -384.000000)">
+            <g transform="translate(1391.000000, 384.000000)">
+              <g>
+                <rect x="9" y="0" width="1" height="32"></rect>
+                <rect transform="translate(13.500000, 28.000000) rotate(45.000000) translate(-13.500000, -28.000000) " x="13" y="22" width="1" height="12"></rect>
+                <rect transform="translate(5.500000, 28.000000) scale(-1, 1) rotate(45.000000) translate(-5.500000, -28.000000) " x="5" y="22" width="1" height="12"></rect>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </a>
+<footer class="page-footer js-page-footer">
+  <div class="footer-logo">
+    <a href="../../moonshot/moonshot.html">
+      <img class="footer-logo-image" src="../../media/images/footer/footer-logo.svg" alt="X, The Moonshot Factory">
+    </a>
+    <p class="desktop-copyright">Copyright © 2018<br>
+      X Development LLC.<br>
+      All rights reserved.
+    </p>
+  </div>
+  <ul class="footer-nav" role="navigation">
+    <li>
+      <a href="../../x_default.html">Home</a>
+    </li>
+    <li>
+      <a href="../projects.html">Projects</a>
+    </li>
+    <li>
+      <a href="../../careers-at-x/careers-at-x.html">Careers</a>
+    </li>
+    <li>
+      <a href="../../news-from-x/news-from-x.html">News</a>
+    </li>
+    <li>
+      <a href="../../press/press.html">Press</a>
+    </li>
+    <li>
+      <a href="../../contact/contact.html">Contact</a>
+    </li>
+    <li>
+      <a href="https://policies.google.com/">Privacy & Terms</a>
+    </li>
+  </ul>
+  <div class="footer-social">
+    <ul class="social-nav">
+      <li>
+        <a class="social-icon" href="https://www.linkedin.com/company/x" target="_blank">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <path d="M19.942 19.812H16.48v-5.396c0-1.287-.023-2.942-1.8-2.942-1.802 0-2.077 1.402-2.077 2.85v5.488h-3.46V8.716h3.32v1.517h.047c.462-.872 1.593-1.792 3.278-1.792 3.506 0 4.154 2.297 4.154 5.286v6.085zM5.238 7.2a2.003 2.003 0 0 1-2.009-2c0-1.103.896-2 2.009-2 1.108 0 2.007.897 2.007 2 0 1.105-.9 2-2.007 2zM3.504 19.812H6.97V8.716H3.504v11.096zM21.667 0h-19.9C.815 0 .042.75.042 1.677v19.895c0 .926.773 1.678 1.723 1.678h19.9c.954 0 1.728-.752 1.728-1.678V1.677C23.394.75 22.62 0 21.667 0z"
+              fill="#FFFFFE" fill-rule="evenodd" />
+          </svg>
+          <span class="-visually-hidden">X on Linked In (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-icon" href="https://www.youtube.com/user/wesolveforx" target="_blank">
+        <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+          <path d="M23.499 3.584C24 5.456 24 9.361 24 9.361s0 3.905-.501 5.777a3.005 3.005 0 0 1-2.122 2.121c-1.872.502-9.377.502-9.377.502s-7.505 0-9.377-.502a3.005 3.005 0 0 1-2.121-2.121C0 13.266 0 9.36 0 9.36s0-3.905.502-5.777a3.006 3.006 0 0 1 2.121-2.122C4.495.961 12 .961 12 .961s7.505 0 9.377.501a3.006 3.006 0 0 1 2.122 2.122zM9.6 12.961l6.235-3.6-6.235-3.6v7.2z"
+            fill="#FFF" fill-rule="evenodd" />
+        </svg>
+          <span class="-visually-hidden">X on YouTube (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-icon" href="../../blog_x_default.html" target="_blank">
+          <svg width="24" height="19" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <path d="M2.846 3.876a.926.926 0 0 0-.303-.782L.303.402V0H7.26l5.378 11.762L17.367 0H24v.402l-1.916 1.832a.558.558 0 0 0-.213.536v13.46a.558.558 0 0 0 .213.536l1.871 1.832V19h-9.412v-.402l1.939-1.877c.19-.19.19-.245.19-.536V5.305l-5.39 13.65h-.727L4.28 5.305v9.149a1.26 1.26 0 0 0 .347 1.05l2.521 3.05v.401H0v-.402l2.521-3.05c.27-.278.39-.668.325-1.05V3.877z"
+              fill="#FFF" />
+          </svg>
+          <span class="-visually-hidden">X on Medium (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-icon" href="https://www.instagram.com/theteamatx/" target="_blank">
+          <svg width="23" height="23" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <g fill="#FFF" fill-rule="evenodd">
+              <path d="M11.46 2.065c3.06 0 3.422.012 4.63.067 1.118.05 1.725.237 2.129.394.535.208.917.457 1.318.858.4.4.649.782.857 1.317.157.404.343 1.01.394 2.128.056 1.209.067 1.571.067 4.631 0 3.06-.011 3.422-.067 4.63-.05 1.118-.237 1.725-.394 2.129a3.55 3.55 0 0 1-.857 1.318 3.55 3.55 0 0 1-1.318.857c-.404.157-1.01.343-2.128.394-1.208.056-1.57.067-4.631.067-3.06 0-3.423-.011-4.63-.067-1.118-.05-1.725-.237-2.129-.394a3.55 3.55 0 0 1-1.317-.857 3.55 3.55 0 0 1-.858-1.318c-.157-.404-.343-1.01-.394-2.128-.055-1.209-.067-1.57-.067-4.63 0-3.06.012-3.423.067-4.632.05-1.117.237-1.724.394-2.128a3.55 3.55 0 0 1 .858-1.317A3.55 3.55 0 0 1 4.7 2.526c.404-.157 1.01-.343 2.128-.394 1.209-.055 1.571-.067 4.631-.067m0-2.065C8.348 0 7.957.013 6.735.069c-1.22.056-2.053.25-2.782.533a5.617 5.617 0 0 0-2.03 1.321 5.617 5.617 0 0 0-1.321 2.03c-.284.73-.477 1.562-.533 2.782C.013 7.957 0 8.348 0 11.46c0 3.112.013 3.503.069 4.725.056 1.22.25 2.053.533 2.782a5.618 5.618 0 0 0 1.321 2.03 5.617 5.617 0 0 0 2.03 1.321c.73.284 1.562.478 2.782.533 1.222.056 1.613.07 4.725.07 3.112 0 3.503-.014 4.725-.07 1.22-.055 2.053-.25 2.782-.533a5.617 5.617 0 0 0 2.03-1.321 5.617 5.617 0 0 0 1.321-2.03c.284-.73.477-1.562.533-2.782.056-1.222.07-1.613.07-4.725 0-3.112-.014-3.503-.07-4.725-.056-1.22-.25-2.053-.533-2.782a5.617 5.617 0 0 0-1.321-2.03 5.617 5.617 0 0 0-2.03-1.321c-.73-.284-1.562-.477-2.782-.533C14.963.013 14.572 0 11.46 0"
+              />
+              <path d="M11.46 5.73a5.73 5.73 0 1 0 0 11.46 5.73 5.73 0 0 0 0-11.46zm0 9.45a3.72 3.72 0 1 1 0-7.44 3.72 3.72 0 0 1 0 7.44zm7.003-10.087a1.273 1.273 0 1 1-2.546 0 1.273 1.273 0 0 1 2.546 0"
+              />
+            </g>
+          </svg>
+          <span class="-visually-hidden">X on Instagram (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-icon" href="https://www.twitter.com/theteamatx" target="_blank">
+          <svg width="26" height="22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <path d="M8.176 21.659c9.812 0 15.178-8.129 15.178-15.178 0-.23 0-.46-.015-.69A10.853 10.853 0 0 0 26 3.031c-.974.43-2.006.714-3.064.839A5.353 5.353 0 0 0 25.281.919a10.69 10.69 0 0 1-3.387 1.295 5.34 5.34 0 0 0-9.09 4.865A15.144 15.144 0 0 1 1.81 1.506a5.338 5.338 0 0 0 1.651 7.12A5.295 5.295 0 0 1 1.04 7.96v.067c0 2.54 1.79 4.727 4.28 5.23a5.326 5.326 0 0 1-2.409.091 5.34 5.34 0 0 0 4.984 3.705A10.704 10.704 0 0 1 0 19.262a15.102 15.102 0 0 0 8.176 2.393" fill="#FFF" fill-rule="nonzero"/>
+          </svg>
+          <span class="-visually-hidden">X on Twitter (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="social-icon" href="https://www.facebook.com/theteamatx" target="_blank">
+          <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation">
+            <path d="M20.784 0H1.216C.544 0 0 .544 0 1.216v19.568C0 21.456.544 22 1.216 22h10.537v-8.491H8.877v-3.347h2.86V7.72c0-2.844 1.733-4.392 4.269-4.392.861.003 1.722.052 2.578.147v2.968h-1.752c-1.378 0-1.644.652-1.644 1.613v2.123h3.3l-.429 3.33h-2.871V22h5.596c.672 0 1.216-.544 1.216-1.216V1.216C22 .544 21.456 0 20.784 0z"
+              fill="#FFF" />
+          </svg>
+          <span class="-visually-hidden">X on Facebook (opens in new window)</span>
+        </a>
+      </li>
+    </ul>
+    <form class="email-signup js-signup-form cf">
+      <h4 class="email-header">Sign up to receive email news, promotions and information about X.</h4>
+      <span class="email-terms">You will be able to opt-out of these emails at any time. I understand that the information I provide is subject to Google’s <a target="_blank" href="https://policies.google.com/privacy">privacy policy and terms.</a></span>
+      <label class="email-label -visually-hidden" for="email-input">Enter your email address</label>
+      <input id="email-input" class="email-input-field js-signup-input" type="email" placeholder="Email Address" maxlength="250" pattern="[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+        data-g-event="click"
+        data-g-label="email signup input"
+        data-g-action="clicked">
+      <button id="form-submit" type="submit" class="email-submit js-signup-submit"
+        data-g-event="click"
+        data-g-label="email signup submit button"
+        data-g-action="clicked">
+        <span class="-visually-hidden">Submit</span>
+      </button>
+      <div class="signup-thanks js-signup-thanks" aria-hidden="true">
+        <p class="body">Thank you for signing up!</p>
+      </div>
+      <div class="signup-error js-signup-error">
+        <p class="error-text">Sorry, an error occurred! Please ensure that your email address is valid.</p>
+      </div>
+    </form>
+  </div>
+
+  <p class="mobile-copyright">Copyright © 2018<br>
+    X Development LLC.<br>
+    All rights reserved.
+  </p>
+</footer><div class="mobile-menu js-mobile-menu" aria-hidden="true">
+  <button type="button" class="mobile-menu-close js-mobile-close"
+    data-g-event="click"
+    data-g-label="mobile nav close"
+    data-g-action="clicked">
+    Close
+  </button>
+
+  <div class="mobile-nav">
+    <ul class="mobile-nav-main">
+      <li class="nav-overview "><a href="./x_default.html">Home</a></li>
+      <li class="nav-projects "><a href="./projects/projects.html">Projects</a></li>
+      <li class="nav-careers "><a href="./careers-at-x/careers-at-x.html">Careers</a></li>
+      <li class="nav-news "><a href="./news-from-x/news-from-x.html">News</a></li>
+    </ul>
+
+    <ul class="social-mobile-nav">
+      <li>
+        <a class="linkedin" href="https://www.linkedin.com/company/x" target="_blank">
+          <span class="-visually-hidden">X on Linked In (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="youtube" href="https://www.youtube.com/user/wesolveforx" target="_blank">
+          <span class="-visually-hidden">X on YouTube (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="medium" href="./blog_x_default.html" target="_blank">
+          <span class="-visually-hidden">X on Medium (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="instagram" href="https://www.instagram.com/theteamatx/" target="_blank">
+          <span class="-visually-hidden">X on Instagram (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="twitter" href="https://www.twitter.com/theteamatx/" target="_blank">
+          <span class="-visually-hidden">X on Twitter (opens in new window)</span>
+        </a>
+      </li>
+      <li>
+        <a class="facebook" href="https://www.facebook.com/theteamatx" target="_blank">
+          <span class="-visually-hidden">X on Facebook (opens in new window)</span>
+        </a>
+      </li>
+    </ul>
+
+    <a href="./moonshot/moonshot.html" class="mobile-moonshot-button js-mobile-moonshot-link">The Moonshot Factory</a>
+  </div>
+</div>
+    <script src="https://www.google.com/js/gweb/analytics/autotrack.js"></script>
+    <script>
+      var autotrack = new gweb.analytics.AutoTrack({
+        'profile': 'UA-73041844-1',
+        'cookiePath': '/',
+        'cookieDomain': 'auto'
+      });
+    </script>
+
+    <script src="https://www.gstatic.com/external_hosted/waypoints/waypoints.min.js"></script>
+    <script src="https://www.gstatic.com/external_hosted/gsap/v1_18_0/TweenMax.min.js"></script>
+    <script src="../../js/site.min.js"></script>
+  </body>
+</html>

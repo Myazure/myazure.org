@@ -1,0 +1,258 @@
+<svg width="320" height="397" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M.8 0h2.4v29.6H.8z"/>
+    <path id="c" d="M0 0h9.6v29.6H0z"/>
+    <path id="e" d="M.086.218h11.65v17.764H.087z"/>
+    <path id="g" d="M.405.683h3.314v8.355H.405z"/>
+    <path id="i" d="M.22.382h17.785v29.57H.219z"/>
+    <path id="k" d="M.549.651H4.3V13.04H.549z"/>
+    <path d="M.674 24.002h46.744c0-12.91-10.464-23.376-23.372-23.376S.674 11.09.674 24.002z" id="m"/>
+    <path d="M.5 19.202h37.494c0-10.356-8.395-18.75-18.748-18.75C8.893.452.5 8.846.5 19.202z" id="o"/>
+    <path d="M.326 14.402h28.24C28.566 6.6 22.244.278 14.446.278 6.648.278.326 6.601.326 14.402z" id="q"/>
+    <path d="M.151 9.602h18.99c0-5.244-4.25-9.497-9.495-9.497C4.402.105.15 4.358.15 9.602z" id="s"/>
+    <path d="M.777 5.602h9.739a4.87 4.87 0 0 0-9.74 0z" id="u"/>
+    <path d="M.718 24.002h46.744C47.462 11.092 36.997.626 24.09.626 11.182.626.718 11.09.718 24.002z" id="w"/>
+    <path d="M.543 19.202h37.493c0-10.356-8.394-18.75-18.746-18.75C8.938.452.543 8.846.543 19.202z" id="y"/>
+    <path d="M.368 14.402H28.61C28.61 6.6 22.29.278 14.49.278 6.69.278.368 6.601.368 14.402z" id="A"/>
+    <path d="M.194 9.602h18.99c0-5.244-4.25-9.497-9.495-9.497C4.446.105.194 4.358.194 9.602z" id="C"/>
+    <path d="M.02 5.602h9.74a4.87 4.87 0 0 0-9.74 0z" id="E"/>
+    <path d="M23.658 23.926C23.658 11.014 13.194.549.286.549l23.372 23.377z" id="G"/>
+    <path d="M19.033 19.126C19.033 8.77 10.639.376.286.376l18.747 18.75z" id="I"/>
+    <path d="M14.406 14.326C14.406 6.524 8.085.2.286.2l14.12 14.125z" id="K"/>
+    <path d="M9.78 9.526C9.78 4.28 5.53.028.286.028L9.78 9.526z" id="M"/>
+    <path d="M5.154 5.526c0-2.69-2.178-4.87-4.868-4.87l4.868 4.87z" id="O"/>
+    <path d="M.122 23.926L23.494.549C10.586.549.122 11.014.122 23.926z" id="Q"/>
+    <path d="M.747 19.126L19.494.376C9.14.376.747 8.77.747 19.126z" id="S"/>
+    <path d="M.573 14.326L14.693.2C6.896.2.574 6.524.574 14.326z" id="U"/>
+    <path d="M.4 9.526L9.893.028C4.65.028.399 4.28.399 9.526z" id="W"/>
+    <path d="M.224 5.526l4.87-4.87a4.87 4.87 0 0 0-4.87 4.87z" id="Y"/>
+    <path id="aa" d="M.474.02H12.6v20.155H.474z"/>
+    <path id="ac" d="M.48 6.768l9.042 2.41L7.1.182z"/>
+    <path id="ae" d="M.402 9.178l9.04-2.408L2.823.182z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M320 123.748h-27.991" stroke="#221E1F" stroke-width=".8"/>
+    <path d="M291.61 37.022h13.121c.444 0 .567-.61.156-.779L219.968 1l-84.917 35.243c-.41.17-.288.78.155.78h13.122" stroke="#221E1F" stroke-width=".5"/>
+    <path stroke="#221E1F" stroke-width=".5" d="M291.682 179.825H148.4V31.733L220.04 2l71.642 29.733z"/>
+    <path d="M220.4 2.8v121.254" stroke="#ADBDC1" stroke-width="4.8"/>
+    <path d="M148.4 73.2h143.282" stroke="#ADBDC1" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M251.6 130.8v16.8M254 130.8v16.8" stroke="#221E1F" stroke-width=".8"/>
+    <g transform="translate(243.6 146.8)">
+      <mask id="b" fill="#fff">
+        <use xlink:href="#a"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#b)" d="M-3.2 33.6H7.2V-4H-3.2z"/>
+    </g>
+    <g transform="translate(247.6 146.8)">
+      <mask id="d" fill="#fff">
+        <use xlink:href="#c"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#d)" d="M-4 33.6h17.6V-4H-4z"/>
+    </g>
+    <path d="M244.294 173.158h-81.642a2.435 2.435 0 0 1-2.434-2.434v-8.69c0-1.344-.218-3.034-2.218-3.034h-18" stroke="#00ADEE" stroke-width=".8"/>
+    <path d="M244.294 168.358h-77.136a2.434 2.434 0 0 1-2.433-2.434v-8.69c0-1.344-1.09-2.784-2.434-2.784H156" stroke="#EC1D24" stroke-width=".8"/>
+    <path d="M160.4 130h120.809" stroke="#221E1F" stroke-width=".8"/>
+    <g transform="translate(194.8 129.2)">
+      <mask id="f" fill="#fff">
+        <use xlink:href="#e"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#f)" d="M-3.914 21.982h19.65V-3.782h-19.65z"/>
+    </g>
+    <g transform="translate(209.2 152.4)">
+      <mask id="h" fill="#fff">
+        <use xlink:href="#g"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#h)" d="M-3.595 13.037H7.719V-3.317H-3.595z"/>
+    </g>
+    <g transform="translate(191.6 146.8)">
+      <mask id="j" fill="#fff">
+        <use xlink:href="#i"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#j)" d="M-3.782 33.952h25.787v-37.57H-3.782z"/>
+    </g>
+    <g transform="translate(219.6 96.4)">
+      <mask id="l" fill="#fff">
+        <use xlink:href="#k"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#l)" d="M-3.451 17.038H8.3V-3.349H-3.451z"/>
+    </g>
+    <g transform="translate(166.8 96.4)">
+      <mask id="n" fill="#fff">
+        <use xlink:href="#m"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#n)" d="M-3.326 28.002h54.744V-3.375H-3.326z"/>
+    </g>
+    <path d="M166.8 120.577c0-12.91 10.464-23.377 23.372-23.377 12.909 0 23.372 10.466 23.372 23.377" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(171.6 101.2)">
+      <mask id="p" fill="#fff">
+        <use xlink:href="#o"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#p)" d="M-3.5 23.202h45.493v-26.75H-3.5z"/>
+    </g>
+    <path d="M171.6 120.75c0-10.356 8.393-18.75 18.747-18.75 10.352 0 18.746 8.394 18.746 18.75" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(176.4 106)">
+      <mask id="r" fill="#fff">
+        <use xlink:href="#q"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#r)" d="M-3.674 18.402h36.24V-3.722h-36.24z"/>
+    </g>
+    <path d="M176.4 120.924c0-7.8 6.32-14.124 14.12-14.124 7.798 0 14.12 6.323 14.12 14.124" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(181.2 110.8)">
+      <mask id="t" fill="#fff">
+        <use xlink:href="#s"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#t)" d="M-3.849 13.602h26.99V-3.895H-3.85z"/>
+    </g>
+    <path d="M181.2 121.097c0-5.244 4.25-9.497 9.495-9.497 5.245 0 9.495 4.253 9.495 9.497" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(185.2 114.8)">
+      <mask id="v" fill="#fff">
+        <use xlink:href="#u"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#v)" d="M-3.223 9.602h17.739v-12.87h-17.74z"/>
+    </g>
+    <path d="M186 120.47a4.87 4.87 0 0 1 9.74 0" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(227.6 96.4)">
+      <mask id="x" fill="#fff">
+        <use xlink:href="#w"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#x)" d="M-3.282 28.002h54.744V-3.375H-3.282z"/>
+    </g>
+    <path d="M227.6 120.577c0-12.91 10.463-23.377 23.372-23.377 12.908 0 23.372 10.466 23.372 23.377" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(232.4 101.2)">
+      <mask id="z" fill="#fff">
+        <use xlink:href="#y"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#z)" d="M-3.457 23.202h45.493v-26.75H-3.457z"/>
+    </g>
+    <path d="M232.4 120.75c0-10.356 8.394-18.75 18.747-18.75 10.352 0 18.746 8.394 18.746 18.75" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(237.2 106)">
+      <mask id="B" fill="#fff">
+        <use xlink:href="#A"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#B)" d="M-3.631 18.402H32.61V-3.722H-3.63z"/>
+    </g>
+    <path d="M237.2 120.924c0-7.8 6.322-14.124 14.12-14.124 7.8 0 14.122 6.323 14.122 14.124" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(242 110.8)">
+      <mask id="D" fill="#fff">
+        <use xlink:href="#C"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#D)" d="M-3.806 13.602h26.99V-3.895h-26.99z"/>
+    </g>
+    <path d="M242 121.097c0-5.244 4.251-9.497 9.494-9.497 5.245 0 9.496 4.253 9.496 9.497" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(246.8 114.8)">
+      <mask id="F" fill="#fff">
+        <use xlink:href="#E"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#F)" d="M-3.98 9.602h17.738v-12.87H-3.979z"/>
+    </g>
+    <path d="M246.8 120.47a4.87 4.87 0 1 1 9.738 0" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(160.4 45.2)">
+      <mask id="H" fill="#fff">
+        <use xlink:href="#G"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#H)" d="M-3.714 27.925h31.372V-3.452H-3.714z"/>
+    </g>
+    <path d="M160.4 46c12.908 0 23.372 10.466 23.372 23.377" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(160.4 50)">
+      <mask id="J" fill="#fff">
+        <use xlink:href="#I"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#J)" d="M-3.714 23.126h26.747v-26.75H-3.714z"/>
+    </g>
+    <path d="M160.4 50.8c10.353 0 18.747 8.395 18.747 18.75" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(160.4 54.8)">
+      <mask id="L" fill="#fff">
+        <use xlink:href="#K"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#L)" d="M-3.714 18.325h22.12V-3.8h-22.12z"/>
+    </g>
+    <path d="M160.4 55.6c7.8 0 14.12 6.323 14.12 14.124" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(160.4 59.6)">
+      <mask id="N" fill="#fff">
+        <use xlink:href="#M"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#N)" d="M-3.714 13.525h17.493V-3.972H-3.714z"/>
+    </g>
+    <path d="M160.4 59.6c5.243 0 9.494 4.252 9.494 9.497" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(160.4 63.6)">
+      <mask id="P" fill="#fff">
+        <use xlink:href="#O"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#P)" d="M-3.714 9.525H9.154v-12.87H-3.714z"/>
+    </g>
+    <path d="M160.4 64.4a4.87 4.87 0 0 1 4.869 4.87" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(258 45.2)">
+      <mask id="R" fill="#fff">
+        <use xlink:href="#Q"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#R)" d="M-3.878 27.925h31.372V-3.452H-3.878z"/>
+    </g>
+    <path d="M281.372 46C268.464 46 258 56.466 258 69.377" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(262 50)">
+      <mask id="T" fill="#fff">
+        <use xlink:href="#S"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#T)" d="M-3.253 23.126h26.747v-26.75H-3.253z"/>
+    </g>
+    <path d="M280.747 50.8C270.394 50.8 262 59.195 262 69.55" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(266.8 54.8)">
+      <mask id="V" fill="#fff">
+        <use xlink:href="#U"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#V)" d="M-3.427 18.325h22.12V-3.8h-22.12z"/>
+    </g>
+    <path d="M280.92 55.6c-7.798 0-14.12 6.323-14.12 14.124" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(271.6 59.6)">
+      <mask id="X" fill="#fff">
+        <use xlink:href="#W"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#X)" d="M-3.6 13.525h17.494V-3.972H-3.601z"/>
+    </g>
+    <path d="M281.094 59.6c-5.244 0-9.494 4.252-9.494 9.497" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(276.4 63.6)">
+      <mask id="Z" fill="#fff">
+        <use xlink:href="#Y"/>
+      </mask>
+      <path fill="#FEFEFE" mask="url(#Z)" d="M-3.776 9.525h12.87v-12.87h-12.87z"/>
+    </g>
+    <path d="M281.27 64.4a4.87 4.87 0 0 0-4.87 4.87" stroke="#00ADEE" stroke-width=".8"/>
+    <g transform="translate(134 146.8)">
+      <mask id="ab" fill="#fff">
+        <use xlink:href="#aa"/>
+      </mask>
+      <path fill="#221E1F" mask="url(#ab)" d="M-3.525 24.175H16.6V-3.98H-3.525z"/>
+    </g>
+    <path d="M104.8 287.23V223.6" stroke="#00B4F0" stroke-width="1.6"/>
+    <path d="M93.573 358.946l2.97 2.957c.44.438.582 1.114.378 1.804l-.031.105c-.436 1.47.712 2.613 2.19 2.18l1.214-.357 1.215-.355c1.478-.434 2.627.708 2.19 2.179l-.358 1.208-.357 1.21c-.435 1.47.714 2.613 2.193 2.178l1.21-.357 1.22-.357c1.477-.433 2.625.71 2.19 2.18l-.033.11c-.204.689-.062 1.365.378 1.803l.818.814 1.398 1.39" stroke="#EC1D24" stroke-width=".8"/>
+    <path fill="#EC1D24" d="M108.079 379.968l9.042 2.41-2.422-8.997z"/>
+    <g transform="translate(107.6 373.2)">
+      <mask id="ad" fill="#fff">
+        <use xlink:href="#ac"/>
+      </mask>
+      <path fill="#EC1D24" mask="url(#ad)" d="M-745.6 2406.4h1152v-4684h-1152z"/>
+      <path fill="#EC1D24" mask="url(#ad)" d="M-3.52 13.178h17.042V-3.818H-3.521z"/>
+    </g>
+    <path stroke="#00B4F0" stroke-width="1.6" d="M98 229.674l6.651-6.874 6.549 7.14"/>
+    <g stroke-width=".8">
+      <path d="M11.668 354.495a2.472 2.472 0 0 0 2.471-2.472l-.005-177.725.024-9.71a5.56 5.56 0 0 1 1.144-3.386 5.567 5.567 0 0 1 4.43-2.192l68.946-.003" stroke="#00ADEE"/>
+      <path d="M88.852 154.43l-71.75.003a8.095 8.095 0 0 0-6.447 3.19 8.078 8.078 0 0 0-1.665 4.924l.006 187.355v2.155a2.473 2.473 0 0 0 2.472 2.472" stroke="#EC1D24"/>
+      <path d="M79.668 354.493a2.472 2.472 0 0 0 2.471-2.472l-.005-177.725.024-9.711a5.56 5.56 0 0 1 1.144-3.386 5.567 5.567 0 0 1 4.43-2.192H147" stroke="#00ADEE"/>
+      <path d="M156.852 154.428l-71.75.003a8.095 8.095 0 0 0-6.447 3.19 8.078 8.078 0 0 0-1.665 4.924l.006 187.355v2.155a2.473 2.473 0 0 0 2.472 2.472" stroke="#EC1D24"/>
+    </g>
+    <path d="M148.5 123.6H0" stroke="#221E1F" stroke-width=".8"/>
+    <path d="M81.76 363.543v4.181c0 .619-.381 1.198-1.016 1.541l-.097.052c-1.227.666-1.227 2.42 0 3.083l1.112.603 1.112.603c1.228.665 1.228 2.417 0 3.083l-1.112.602-1.01.548c-1.272.688-1.27 2.505.002 3.194l1.008.545 1.016.55c1.268.688 1.268 2.503 0 3.191-.634.344-1.016.922-1.016 1.541v3.118" stroke="#EC1D24" stroke-width=".8"/>
+    <path fill="#EC1D24" d="M77.079 388.615l4.682 8.066 4.68-8.066z"/>
+    <path d="M69.95 358.946l-2.971 2.957c-.44.438-.582 1.114-.378 1.804l.031.105c.436 1.47-.712 2.613-2.19 2.18l-1.214-.357-1.215-.355c-1.478-.434-2.627.708-2.19 2.179l.357 1.208.358 1.21c.435 1.47-.715 2.613-2.193 2.178l-1.21-.357-1.22-.357c-1.477-.433-2.625.71-2.19 2.18l.033.11c.204.689.062 1.365-.378 1.803l-.818.814-1.398 1.39" stroke="#EC1D24" stroke-width=".8"/>
+    <path fill="#EC1D24" d="M48.824 373.382l-2.422 8.996 9.04-2.41z"/>
+    <g transform="translate(46 373.2)">
+      <mask id="af" fill="#fff">
+        <use xlink:href="#ae"/>
+      </mask>
+      <path fill="#EC1D24" mask="url(#af)" d="M-3.598 13.178h17.041V-3.818H-3.598z"/>
+    </g>
+    <path d="M58 224v63.63M64.8 280.666l-6.651 6.874-6.549-7.14" stroke="#EC1D24" stroke-width=".8"/>
+    <path d="M148.4 124.4h143.282" stroke="#ADBDC1" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M190.8 124.4v5.634M251.6 124.4v5.634" stroke="#221E1F" stroke-width="1.6" stroke-linecap="square"/>
+    <path d="M160.4 73.2v57.2M281.2 73.2v57.2M220.811 103.6v53.763H211.6" stroke="#221E1F" stroke-width=".8"/>
+  </g>
+</svg>
