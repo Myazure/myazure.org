@@ -3101,7 +3101,9 @@ a:visited {
   display: flex;
   opacity: 1;
   padding: 60vh 0 30vh 0;
-  transition: opacity 300ms ease-in-out; }
+  transition: opacity 300ms ease-in-out; 
+  background: yellow;
+  }
   .homepage .mission-panel h2 {
     font-size: 32px;
     line-height: 1.2;
@@ -3203,9 +3205,15 @@ a:visited {
         background-image: url("../media/images/home/panels/wing-2.jpg"); } }
   .homepage .tech-image-panel.imageset-2 .image-bg.makani {
     background-image: url("../media/images/home/panels/makani-2-mobile.jpg"); }
-    @media (min-width: 600px) {
+    
+	
+	@media (min-width: 600px) {
       .homepage .tech-image-panel.imageset-2 .image-bg.makani {
         background-image: url("../media/images/home/panels/makani-2.jpg"); } }
+		
+		
+		
+		
     @media only screen and (max-height: 500px) and (max-width: 800px) and (orientation: landscape) and (min-aspect-ratio: 13 / 9) {
       .homepage .tech-image-panel.imageset-2 .image-bg.makani {
         background-image: url("../media/images/home/panels/makani-2.jpg"); } }
