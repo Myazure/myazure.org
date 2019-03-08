@@ -1,6 +1,6 @@
-<div class="div_class">
+﻿<div class="div_class">
   <h1>服务器链接字符串：</h1>
   <p class="p">
-     2132132Ojg4ODg6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOk1qTTBOVGM0T1RBLz9vYmZzcGFyYW09Jmdyb3VwPVRYbGhlblZ5WlEmdWRwcG9ydD04ODg4
+     2132132Ojg4ODg6b3JpZ2lu<br />OmFlcy0yNTYtY2ZiOnB<br />sYWluOk1qTTBOVGM0T1RBLz9vYmZzc<br />GFyYW09Jmdyb3VwPVRYbG<br />hlblZ5WlEmdWRwcG9y<br />dD04ODg4
   </p>
 </div>
