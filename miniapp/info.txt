@@ -1,6 +1,4 @@
 ﻿<div class="div_class">
   <h1>服务器链接字符串：</h1>
-  <p class="p">
-     2132132Ojg4ODg6b3JpZ2lu<br />OmFlcy0yNTYtY2ZiOnB<br />sYWluOk1qTTBOVGM0T1RBLz9vYmZzc<br />GFyYW09Jmdyb3VwPVRYbG<br />hlblZ5WlEmdWRwcG9y<br />dD04ODg4
-  </p>
+  <p class="p">ssr://NDUuMzIuMTIuMTM0Ojc3ODI6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOlExcEdjbkY1YlZWalZ6SmlaREV5V1EvP29iZnNwYXJhbT1UbTl1WlEmcHJvdG9wYXJhbT1UbTl1WlEmcmVtYXJrcz1VMU5TVkU5UFRGOU9iMlJsT3VhWHBlYWNyQ0RrdUp6a3VxeERhRzl2Y0dIbWxiRG1qYTdrdUszbHY0TSZncm91cD1RMmhoY214bGN5QllkUQ</p>
 </div>
